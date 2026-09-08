@@ -93,6 +93,62 @@ strong { color: var(--rd-night); font-weight: 800; }
 .photo-title .kicker { color:#cfeee0; }
 .photo-title .subtitle, .photo-title .muted { color:rgba(255,255,255,.84); }
 .placeholder { border:2px dashed rgba(86,166,129,.38); border-radius:30px; min-height:240px; display:flex; align-items:center; justify-content:center; text-align:center; color:#668078; font-weight:800; background:rgba(255,255,255,.55); }
+
+.team-portraits {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.05rem;
+  max-width: 1030px;
+}
+.person-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 34px;
+  padding: .62rem .62rem 1rem;
+  background:
+    linear-gradient(145deg, rgba(11,23,32,.98), rgba(17,24,39,.96)) padding-box,
+    linear-gradient(145deg, rgba(86,166,129,.95), rgba(255,255,255,.10), rgba(86,166,129,.38)) border-box;
+  border: 1px solid transparent;
+  box-shadow: 0 28px 90px rgba(10,31,24,.22);
+}
+.person-card::after {
+  content: '';
+  position: absolute;
+  inset: auto 1.1rem 4.2rem 1.1rem;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, var(--rd-primary), transparent);
+  opacity: .9;
+}
+.person-photo {
+  height: 255px;
+  overflow: hidden;
+  border-radius: 28px;
+  background: #050607;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.06);
+}
+.person-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 50% 18%;
+}
+.person-name {
+  margin-top: .78rem;
+  color: white;
+  font-family: 'Funnel Display', 'Satoshi', Inter, sans-serif;
+  font-size: 2.05rem;
+  font-weight: 800;
+  line-height: .95;
+  letter-spacing: -.055em;
+}
+.person-role {
+  margin-top: .34rem;
+  color: rgba(255,255,255,.72);
+  font-size: .86rem;
+  font-weight: 800;
+}
 .timeline { display:grid; grid-template-columns: repeat(5, 1fr); gap:.75rem; }
 .timeline .step { background:white; border:1px solid var(--rd-line); border-radius:24px; padding:1rem; min-height:132px; }
 .timeline .time { font-family:'Funnel Display'; font-weight:850; color:var(--rd-primary); font-size:1.55rem; }
