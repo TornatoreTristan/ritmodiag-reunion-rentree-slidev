@@ -107,15 +107,15 @@ Notes speaker : faire le lien avec la dynamique humaine de la journée : anciens
     <p class="muted">Une organisation clarifiée, au service du développement de l’agence et du réseau.</p>
   </div>
   <div class="rd-card" v-click>
-    <h3>Un appui entrepreneurial</h3>
-    <p class="muted">Aymeric Leblanc accompagne avec son expérience business, rénovation et diagnostic.</p>
+    <h3>Priorité au réseau</h3>
+    <p class="muted">Un passage de relais pensé pour renforcer l’animation, le pilotage et l’accompagnement des franchisés.</p>
   </div>
 </div>
 
 <div class="quote mt-9" v-click>Se concentrer à 100% sur le développement de la franchise.</div>
 
 <!--
-Notes speaker : annoncer simplement, valoriser Margot et Aymeric, expliquer que cela libère de l'énergie côté franchiseur pour structurer et accompagner tout le réseau.
+Notes speaker : annoncer simplement le passage de relais à Caen, puis expliquer que cela libère de l'énergie côté franchiseur pour structurer et accompagner tout le réseau.
 -->
 
 ---
