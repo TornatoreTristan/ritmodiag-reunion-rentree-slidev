@@ -1,0 +1,18 @@
+{
+  "name": "ritmodiag-reunion-rentree-slidev",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open false",
+    "build": "slidev build --base /ritmodiag-reunion-rentree-slidev/",
+    "export": "slidev export --format pdf",
+    "clean": "rm -rf dist .slidev"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest",
+    "vue": "latest"
+  },
+  "devDependencies": {}
+}
