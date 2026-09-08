@@ -2,6 +2,11 @@
 
 Projet créé pour une présentation **premium light**, énergique et professionnelle, destinée aux franchisés RITMODiag déjà ancrés et aux nouveaux entrants.
 
+## Version en ligne
+
+- Présentation : https://tornatoretristan.github.io/ritmodiag-reunion-rentree-slidev/
+- Dépôt GitHub : https://github.com/TornatoreTristan/ritmodiag-reunion-rentree-slidev
+
 ## Lancer la présentation
 
 ```bash
