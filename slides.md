@@ -83,7 +83,7 @@ Notes speaker : ne pas lire le programme. L'utiliser comme promesse de rythme : 
 layout: image
 ---
 
-<img class="photo-cover" src="/assets/drive/photos/equipe-01.jpg" />
+<img class="photo-cover" src="/assets/reunion-rentree/reunion-rentree-v20260908-13-formation-aziz-1.jpg" />
 <div class="photo-overlay"></div>
 <div class="photo-title">
   <div class="kicker">Énergie réseau</div>
@@ -362,7 +362,7 @@ Notes speaker : introduire les quatre piliers comme une grille simple qui revien
     <div class="quote">Rassurer. Identifier. Donner confiance.</div>
     <p class="subtitle mt-6">Chaque interaction locale nourrit la réputation nationale.</p>
   </div>
-  <div class="photo-frame h-80"><img src="/assets/drive/logos/ritmodiag-plan-travail.png" /></div>
+  <div class="photo-frame h-80"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-20-capture-de-la-fiche-google-de-caen.png" /></div>
 </div>
 
 <!--
@@ -651,7 +651,7 @@ Notes speaker : introduire l'immersion formation comme preuve de concret : on ap
 ## Des formats vivants et applicables
 
 <div class="grid-2 mt-7">
-  <div class="photo-frame h-80"><img src="/assets/drive/formation/formation-01.jpg" /></div>
+  <div class="photo-frame h-80"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-14-formation-aziz-2.jpg" /></div>
   <div class="rd-card">
     <h3>À montrer visuellement</h3>
     <ul class="clean mt-5">
@@ -674,9 +674,9 @@ Notes speaker : utiliser cette slide comme respiration visuelle pour rendre l'im
 ## Immersion en images
 
 <div class="mosaic mt-7">
-  <div class="photo-frame"><img src="/assets/drive/formation/formation-02.jpg" /></div>
-  <div class="photo-frame"><img src="/assets/drive/formation/formation-03.jpg" /></div>
-  <div class="photo-frame"><img src="/assets/drive/photos/agence-caen-01.jpg" /></div>
+  <div class="photo-frame"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-15-formation-aziz-22.jpg" /></div>
+  <div class="photo-frame"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-16-formation-aziz-56.jpg" /></div>
+  <div class="photo-frame"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-18-p1300495.jpg" /></div>
 </div>
 
 <!--
@@ -881,7 +881,7 @@ Notes speaker : synthèse finale. Reprendre la vision, remercier, ouvrir vers la
     <div class="quote">Place aux échanges, puis au moment convivial.</div>
     <p class="subtitle mt-6">18h00 — Apéro pétanque<br>Place des Oliviers, Les Carandes, Parc Évasion, 14120 Mondeville</p>
   </div>
-  <div class="photo-frame h-80"><img src="/assets/drive/logos/ritmodiag-photo.jpg" /></div>
+  <div class="photo-frame h-80"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-19-p1300488.jpg" /></div>
 </div>
 
 <!--

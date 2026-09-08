@@ -30,19 +30,17 @@ npm run export     # export PDF si le navigateur headless requis est disponible
 - `style.css` : direction artistique alignée sur la charte RITMODiag, couleur primaire `#56a681`.
 - `package.json` : scripts `dev`, `build`, `export`.
 - `public/favicon.svg` : favicon vert RITMODiag `#56a681`.
-- `public/assets/drive/logos/` : logos et visuels de marque.
-- `public/assets/drive/photos/` : photos d’équipe / agence téléchargées depuis Drive.
-- `public/assets/drive/formation/` : photos d’action / immersion téléchargées depuis Drive.
+- `public/assets/drive/logos/` : logos et visuels de marque historiques.
+- `public/assets/reunion-rentree/` : **seules photos autorisées désormais référencées dans `slides.md`**, téléchargées depuis `Marketing > Projets > Réunion de rentrée`.
 
-## Assets Drive récupérés
+## Assets photos autorisés — Réunion de rentrée
 
-Google Drive était authentifié. Une sélection d’assets a été téléchargée sans modification de Drive :
+Google Drive était authentifié. Le dossier exact `Marketing > Projets > Réunion de rentrée` a été retrouvé et les visuels utilisés dans `slides.md` proviennent exclusivement de ce dossier ou de ses sous-dossiers. La provenance est tracée dans :
 
-- Logos : `logo-ritmodiag.svg`, `ritmodiag.svg`, `ritmodiag-plan-travail.png`, `ritmodiag-photo.jpg`.
-- Photos formation / immersion : `formation-01.jpg`, `formation-02.jpg`, `formation-03.jpg`.
-- Photos agence / équipe : `agence-caen-01.jpg`, `agence-caen-02.jpg`, `equipe-01.jpg`, `equipe-02.jpg`, `equipe-03.jpg`.
+- `public/assets/reunion-rentree/MANIFEST.md`
+- `public/assets/reunion-rentree/MANIFEST.json`
 
-Les requêtes Drive demandées ont été tentées. Les dossiers exacts `Marketing > Projets > Réunion de rentrée` et `Marketing > Franchise : Agents co' > Immersion : Formation` n’étaient pas retrouvés tels quels via la recherche accessible ; des photos pertinentes ont donc été récupérées depuis les dossiers Marketing/Photos et une série récente de photos image dans Drive.
+Les anciennes photos à provenance incertaine (`public/assets/drive/photos/*`, `public/assets/drive/formation/*`, `ritmodiag-photo.jpg`, `ritmodiag-plan-travail.png`) ne sont plus référencées dans `slides.md`. Les fichiers historiques peuvent rester dans l’arborescence pour compatibilité, mais ne doivent pas être réutilisés sans preuve de présence dans `Réunion de rentrée`. Les nouveaux noms contiennent `v20260908` pour éviter que le cache masque le changement.
 
 ## Notes de contenu
 
