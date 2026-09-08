@@ -14,6 +14,7 @@ css: unocss
 ---
 
 <link rel="stylesheet" href="/style.css">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
 <div class="kicker">RITMODiag • Rentrée 2026</div>
 
@@ -38,7 +39,7 @@ layout: fact
 
 # Grandir avec méthode, exigence et cohérence.
 
-<div class="subtitle mx-auto mt-8">La présentation accompagne la parole : des repères forts, pas un document à lire.</div>
+<div class="subtitle mx-auto mt-8">Un réseau visible, lisible et cohérent — partout où RITMODiag s’implante.</div>
 
 <!--
 Notes speaker : phrase pivot de la journée. RITMODiag a déjà une base ; l'enjeu 2026 est de transformer cette base en système duplicable, visible et performant.
@@ -69,13 +70,29 @@ Notes speaker : rappeler le déroulé sans s'attarder sur l'horaire complet. Don
 <div class="timeline mt-10">
   <div class="step" v-click><div class="time">09:00</div><strong>Accueil</strong><br><span class="muted">Arrivée & petit-déjeuner</span></div>
   <div class="step" v-click><div class="time">10:00</div><strong>Partage</strong><br><span class="muted">Rencontre entre franchisés</span></div>
-  <div class="step" v-click><div class="time">12:30</div><strong>Pause</strong><br><span class="muted">Repas collectif</span></div>
+  <div class="step" v-click><div class="time">12:30</div><strong>Pause</strong><br><span class="muted">Repas collectif + photos individuelles et groupe</span></div>
   <div class="step" v-click><div class="time">14:00</div><strong>Vision</strong><br><span class="muted">Objectifs & structuration</span></div>
   <div class="step" v-click><div class="time">18:00</div><strong>Convivial</strong><br><span class="muted">Apéro pétanque</span></div>
 </div>
 
 <!--
 Notes speaker : ne pas lire le programme. L'utiliser comme promesse de rythme : humain le matin, stratégique l'après-midi, convivial en clôture.
+-->
+
+---
+layout: image
+---
+
+<img class="photo-cover" src="/assets/drive/photos/equipe-01.jpg" />
+<div class="photo-overlay"></div>
+<div class="photo-title">
+  <div class="kicker">Énergie réseau</div>
+  <h1>Se retrouver pour repartir alignés.</h1>
+  <div class="subtitle mt-6">Une respiration visuelle pour installer le collectif avant d’entrer dans les sujets de fond.</div>
+</div>
+
+<!--
+Notes speaker : faire le lien avec la dynamique humaine de la journée : anciens, nouveaux, échanges et qualité des relations.
 -->
 
 ---
@@ -87,7 +104,7 @@ Notes speaker : ne pas lire le programme. L'utiliser comme promesse de rythme : 
 <div class="grid-2 mt-8">
   <div class="rd-card" v-click>
     <h3>Caen entre dans une nouvelle phase</h3>
-    <p class="muted">L’agence sera désormais gérée par Margot Ladroue.</p>
+    <p class="muted">Une organisation clarifiée, au service du développement de l’agence et du réseau.</p>
   </div>
   <div class="rd-card" v-click>
     <h3>Un appui entrepreneurial</h3>
@@ -249,31 +266,60 @@ Notes speaker : transition vers une slide réseau explicite, importante pour les
 
 <div class="kicker">Cartographie réseau</div>
 
-## Les agences RITMODiag
+## Les agences RITMODiag en France
 
-<div class="agency-list mt-8">
-  <span class="pill active physical">Caen • active • physique</span>
-  <span class="pill active physical">Saint-Lô • active • physique</span>
-  <span class="pill active">Vire/Sud Manche • active</span>
-  <span class="pill active">Le Havre • active</span>
-  <span class="pill active">Angers • active</span>
-  <span class="pill active">Vierzon • active</span>
-  <span class="pill active">Strasbourg • active</span>
-  <span class="pill active">Morlaix • active</span>
-  <span class="pill new">Saint-Malo • nouveau</span>
-  <span class="pill new">Deauville/Lisieux • nouveau</span>
-  <span class="pill new">Alençon • nouveau</span>
-  <span class="pill new">Chartres • nouveau</span>
-  <span class="pill new">Évreux • nouveau</span>
-  <span class="pill new physical">Cherbourg • nouveau • physique</span>
-  <span class="pill new">Arras • nouveau</span>
+<div class="france-map mt-5">
+  <svg viewBox="0 0 360 470" aria-label="Carte stylisée de la France">
+    <path d="M155 18 L238 38 L308 96 L321 178 L288 250 L303 326 L249 414 L181 451 L103 423 L74 352 L30 312 L46 238 L23 164 L83 105 Z" fill="#f8fcfa" stroke="#56a681" stroke-width="5"/>
+    <path d="M84 105 L141 138 L204 126 L266 165 M47 238 L122 246 L192 226 L288 250 M74 352 L143 318 L221 338 L249 414" fill="none" stroke="rgba(86,166,129,.18)" stroke-width="2"/>
+  </svg>
+  <span class="map-point active" style="left:19%;top:26%">Morlaix</span>
+  <span class="map-point new" style="left:28%;top:31%">Saint-Malo</span>
+  <span class="map-point new physical" style="left:34%;top:25%">Cherbourg</span>
+  <span class="map-point active physical" style="left:38%;top:36%">Saint-Lô</span>
+  <span class="map-point active" style="left:40%;top:42%">Vire / Sud Manche</span>
+  <span class="map-point active physical" style="left:45%;top:36%">Caen</span>
+  <span class="map-point new" style="left:49%;top:38%">Deauville / Lisieux</span>
+  <span class="map-point active" style="left:55%;top:30%">Le Havre</span>
+  <span class="map-point new" style="left:58%;top:42%">Évreux</span>
+  <span class="map-point new" style="left:57%;top:20%">Arras</span>
+  <span class="map-point new" style="left:54%;top:49%">Chartres</span>
+  <span class="map-point new" style="left:47%;top:51%">Alençon</span>
+  <span class="map-point active" style="left:40%;top:59%">Angers</span>
+  <span class="map-point active" style="left:59%;top:66%">Vierzon</span>
+  <span class="map-point active" style="left:75%;top:43%">Strasbourg</span>
+  <div class="map-panel rd-card">
+    <h3>15 agences</h3>
+    <p class="muted mt-3">Une implantation concentrée dans le Grand Ouest, enrichie par des relais dans le Nord, le Centre et l’Est.</p>
+    <div class="grid-3 mt-5">
+      <div class="metric"><div class="num">8</div><div class="label">déjà en activité</div></div>
+      <div class="metric"><div class="num">7</div><div class="label">nouvelles agences</div></div>
+      <div class="metric"><div class="num">3</div><div class="label">agences physiques</div></div>
+    </div>
+  </div>
+  <div class="map-legend"><span class="pill active">Actives</span><span class="pill new">Nouvelles</span><span class="pill physical">Physiques</span></div>
 </div>
 
-<div class="rule"></div>
-<div class="flex gap-3"><span class="pill active">Déjà en activité</span><span class="pill new">Rejoignent le réseau</span><span class="pill physical">Agences physiques</span></div>
+<div class="note-hint mt-2">Carte volontairement stylisée : l’objectif est la localisation visuelle du réseau, pas la précision géographique au kilomètre.</div>
 
 <!--
 Notes speaker : présenter les agences comme une force collective. Mentionner explicitement les agences physiques : Caen, Saint-Lô, Cherbourg. Accueillir les nouveaux en les intégrant à une histoire déjà lancée.
+-->
+
+---
+
+<div class="kicker">Grille réseau</div>
+
+## Une lecture simple des statuts
+
+<div class="grid-3 mt-8">
+  <div class="rd-card"><h3>Déjà en activité</h3><div class="agency-list mt-4"><span class="pill active physical">Caen</span><span class="pill active physical">Saint-Lô</span><span class="pill active">Vire / Sud Manche</span><span class="pill active">Le Havre</span><span class="pill active">Angers</span><span class="pill active">Vierzon</span><span class="pill active">Strasbourg</span><span class="pill active">Morlaix</span></div></div>
+  <div class="rd-card"><h3>Nouvelles agences</h3><div class="agency-list mt-4"><span class="pill new">Saint-Malo</span><span class="pill new">Deauville / Lisieux</span><span class="pill new">Alençon</span><span class="pill new">Chartres</span><span class="pill new">Évreux</span><span class="pill new physical">Cherbourg</span><span class="pill new">Arras</span></div></div>
+  <div class="rd-card"><h3>Agences physiques</h3><div class="agency-list mt-4"><span class="pill physical">Caen</span><span class="pill physical">Saint-Lô</span><span class="pill physical">Cherbourg</span></div><p class="muted mt-5">Des points d’ancrage visibles pour renforcer la proximité locale.</p></div>
+</div>
+
+<!--
+Notes speaker : utiliser cette grille pour clarifier les statuts sans rallonger la cartographie.
 -->
 
 ---
@@ -437,7 +483,7 @@ Notes speaker : les prescripteurs veulent des partenaires sérieux, disponibles 
 
 <div class="kicker">Méthode commerciale</div>
 
-## 5 leviers simples
+## 6 leviers simples
 
 <div class="grid-3 mt-8">
   <div class="card" v-click><h3>Prescripteurs</h3><p class="muted">agences, notaires, syndics, gestionnaires, courtiers, bâtiment</p></div>
@@ -592,10 +638,10 @@ layout: section
 
 # Apprendre ensemble, sur le terrain
 
-<div class="subtitle mt-6">Une séquence visuelle prévue pour photos d’action / formation.</div>
+<div class="subtitle mt-6">Des photos et des formats courts pour rendre la transmission plus concrète.</div>
 
 <!--
-Notes speaker : introduire l'immersion formation comme preuve de concret. Les photos devront être remplacées par les vrais assets si disponibles.
+Notes speaker : introduire l'immersion formation comme preuve de concret : on apprend mieux quand les gestes et situations sont visibles.
 -->
 
 ---
@@ -605,9 +651,7 @@ Notes speaker : introduire l'immersion formation comme preuve de concret. Les ph
 ## Des formats vivants et applicables
 
 <div class="grid-2 mt-7">
-  <div class="placeholder">
-    <div>Déposer ici une photo d’action<br><span class="note-hint">public/assets/drive/formation/</span></div>
-  </div>
+  <div class="photo-frame h-80"><img src="/assets/drive/formation/formation-01.jpg" /></div>
   <div class="rd-card">
     <h3>À montrer visuellement</h3>
     <ul class="clean mt-5">
@@ -620,7 +664,23 @@ Notes speaker : introduire l'immersion formation comme preuve de concret. Les ph
 </div>
 
 <!--
-Notes speaker : utiliser cette slide comme respiration visuelle. Si des photos de formation/immersion sont ajoutées, remplacer le placeholder par une grande image pleine largeur ou une mosaïque.
+Notes speaker : utiliser cette slide comme respiration visuelle pour rendre l'immersion concrète avant de revenir à la méthode.
+-->
+
+---
+
+<div class="kicker">Respiration visuelle</div>
+
+## Immersion en images
+
+<div class="mosaic mt-7">
+  <div class="photo-frame"><img src="/assets/drive/formation/formation-02.jpg" /></div>
+  <div class="photo-frame"><img src="/assets/drive/formation/formation-03.jpg" /></div>
+  <div class="photo-frame"><img src="/assets/drive/photos/agence-caen-01.jpg" /></div>
+</div>
+
+<!--
+Notes speaker : laisser respirer la slide. Une phrase suffit : la méthode se transmet mieux quand elle se voit et se pratique.
 -->
 
 ---
@@ -771,6 +831,29 @@ Notes speaker : ouvrir l'échange. Prévenir que l'objectif est d'aboutir à des
 
 <!--
 Notes speaker : faciliter l'échange. Noter les thèmes qui reviennent. Prioriser le concret.
+-->
+
+---
+
+<div class="kicker">Checklist action</div>
+
+## Ce qu’on enclenche dès la rentrée
+
+<div class="grid-2 mt-8">
+  <div class="checklist">
+    <div class="check" v-click>Clarifier les priorités commerciales de chaque agence</div>
+    <div class="check" v-click>Suivre quelques indicateurs simples, chaque mois</div>
+    <div class="check" v-click>Renforcer la visibilité locale et les avis clients</div>
+  </div>
+  <div class="checklist">
+    <div class="check" v-click>Partager les bonnes pratiques qui fonctionnent</div>
+    <div class="check" v-click>Accompagner les lancements avec méthode</div>
+    <div class="check" v-click>Faire vivre une marque commune, homogène et exigeante</div>
+  </div>
+</div>
+
+<!--
+Notes speaker : transformer les échanges en actions. Faire ressortir les engagements ou besoins prioritaires.
 -->
 
 ---
