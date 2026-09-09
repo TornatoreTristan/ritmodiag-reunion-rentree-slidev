@@ -885,22 +885,22 @@ layout: section
   </div>
   <div class="person-card">
     <div class="person-photo">
-      <img src="/assets/reunion-rentree/reunion-rentree-v20260908-01-tristan-fond-noir-9.png" alt="Portrait de Tristan sur fond noir" />
+      <img src="/assets/reunion-rentree/reunion-rentree-v20260909-tristan-fond-noir.jpg" alt="Portrait de Tristan sur fond noir" />
     </div>
     <div class="person-name">Tristan</div>
     <div class="person-role">Marketing et acquisition clients</div>
   </div>
   <div class="person-card">
     <div class="person-photo">
-      <img src="/assets/reunion-rentree/reunion-rentree-v20260908-05-oce-fond-noir.png" alt="Portrait d’Océane sur fond noir" />
+      <img src="/assets/reunion-rentree/reunion-rentree-v20260909-oceane-fond-noir.jpg" alt="Portrait d’Océane sur fond noir" />
     </div>
     <div class="person-name">Océane</div>
     <div class="person-role">Marketing, Communication, Réseaux sociaux</div>
   </div>
   <div class="person-card">
-    <!-- Photo d'Antonin en attente : remplacer ce bloc par le meme
-         <div class="person-photo"><img src="…" alt="…" /></div> que les autres. -->
-    <div class="person-photo person-photo--pending"><span>A</span></div>
+    <div class="person-photo">
+      <img src="/assets/reunion-rentree/reunion-rentree-v20260909-antonin-fond-noir.jpg" alt="Portrait d’Antonin sur fond noir" />
+    </div>
     <div class="person-name">Antonin</div>
     <div class="person-role">Accompagnement terrain</div>
   </div>

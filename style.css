@@ -591,21 +591,6 @@ ul.clean li::before {
   object-fit: cover;
   object-position: 50% 18%;
 }
-/* Portrait pas encore fourni : monogramme sur le fond sombre de la carte,
-   plutot qu'un trou ou un cadre en pointilles au milieu de trois visages. */
-.person-photo--pending {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #1d1e1b;
-}
-.person-photo--pending span {
-  font-size: 3.2rem;
-  font-weight: 600;
-  letter-spacing: -.03em;
-  color: rgba(255, 255, 255, .22);
-}
-
 .person-name {
   margin: .7rem 1rem 0;
   font-size: 1.15rem;
