@@ -271,28 +271,32 @@ Notes speaker : annoncer simplement le passage de relais à Caen, puis expliquer
 
 ## Avant de parler stratégie : le terrain
 
-<div class="grid-3 mt-8">
-  <div class="metric" v-click><div class="num">1</div><div class="label">Votre vision de l’entrepreneuriat</div></div>
-  <div class="metric" v-click><div class="num">2</div><div class="label">Ce qui fonctionne aujourd’hui</div></div>
-  <div class="metric" v-click><div class="num">3</div><div class="label">Le point de friction principal</div></div>
+<div class="grid-5 opening-grid mt-8">
+  <div class="metric" v-click><div class="num">1</div><div class="label">Présentation et parcours</div></div>
+  <div class="metric" v-click><div class="num">2</div><div class="label">Apprendre quelque chose sur vous</div></div>
+  <div class="metric" v-click><div class="num">3</div><div class="label">Vision de l’entrepreneuriat</div></div>
+  <div class="metric" v-click><div class="num">4</div><div class="label">Point de friction</div></div>
+  <div class="metric" v-click><div class="num">5</div><div class="label">Point fort</div></div>
 </div>
 
 <!--
-Notes speaker : provoquer des échanges concrets. Éviter la formulation brute "pain point" à l'écran ; la garder en langage parlé si adapté.
+Notes speaker : provoquer des échanges concrets et équilibrés : qui êtes-vous, ce qui vous porte, ce qui frotte, ce qui marche. Garder le rythme pour que chacun puisse s'exprimer.
 -->
 
 ---
 layout: section
 ---
 
-<div class="section-tag">02 — Diagnostic réseau</div>
+<div class="section-tag">01 — Diagnostic réseau</div>
 
 # Où en est RITMODiag ?
 
 <div class="subtitle mt-6">Les bases sont posées. L’enjeu : rendre le réseau plus lisible, homogène et duplicable.</div>
 
+<div class="muted mt-6">Un point d’étape lucide pour aligner la suite.</div>
+
 <!--
-Notes speaker : ne pas dramatiser. Positionner cette partie comme un diagnostic lucide : il y a des forces réelles et des points à muscler.
+Notes speaker : reprendre l'énergie de la couverture : ce n'est pas un constat froid, c'est un point de départ commun. Valoriser les acquis avant d'ouvrir les sujets à structurer.
 -->
 
 ---
@@ -343,7 +347,7 @@ Notes speaker : expliquer que l'objectif n'est pas d'enlever l'autonomie, mais d
 layout: section
 ---
 
-<div class="section-tag">03 — Ambition 2026</div>
+<div class="section-tag">02 — Ambition 2026</div>
 
 # Devenir un réseau de référence
 
@@ -353,22 +357,6 @@ layout: section
 Notes speaker : formuler l'ambition en positif. Ne pas promettre uniquement de la croissance ; promettre de la croissance maîtrisée.
 -->
 
----
-
-<div class="kicker">Repères chiffrés</div>
-
-## Les chiffres qui donnent le cap
-
-<div class="grid-4 mt-8">
-  <div class="metric" v-click><div class="num">15</div><div class="label">agences en France</div></div>
-  <div class="metric" v-click><div class="num">+15</div><div class="label">nouveaux franchisés visés</div></div>
-  <div class="metric" v-click><div class="num">100k€</div><div class="label">CA HT minimum / agence</div></div>
-  <div class="metric" v-click><div class="num">110k€</div><div class="label">moyenne réseau visée</div></div>
-</div>
-
-<!--
-Notes speaker : préciser que les chiffres ne sont pas des slogans mais des repères de pilotage. Ils doivent orienter les routines commerciales et les choix d'accompagnement.
--->
 
 ---
 
@@ -399,7 +387,7 @@ Notes speaker : le développement ne doit pas être perçu comme une dilution. C
 layout: section
 ---
 
-<div class="section-tag">04 — Le réseau aujourd'hui</div>
+<div class="section-tag">03 — Le réseau aujourd'hui</div>
 
 # 15 agences, une même trajectoire
 
@@ -409,51 +397,6 @@ layout: section
 Notes speaker : transition vers une slide réseau explicite, importante pour les anciens comme les nouveaux.
 -->
 
----
-
-<div class="kicker">Cartographie réseau</div>
-
-## Les agences RITMODiag en France
-
-<div class="france-map mt-5">
-  <div class="map-canvas">
-  <svg viewBox="0 0 360 470" aria-label="Carte stylisée de la France">
-    <path d="M155 18 L238 38 L308 96 L321 178 L288 250 L303 326 L249 414 L181 451 L103 423 L74 352 L30 312 L46 238 L23 164 L83 105 Z" fill="#f8fcfa" stroke="#56a681" stroke-width="5"/>
-    <path d="M84 105 L141 138 L204 126 L266 165 M47 238 L122 246 L192 226 L288 250 M74 352 L143 318 L221 338 L249 414" fill="none" stroke="rgba(86,166,129,.18)" stroke-width="2"/>
-  </svg>
-  <span class="map-point active" style="left:16%;top:29%">Morlaix</span>
-  <span class="map-point new" style="left:25%;top:35%">Saint-Malo</span>
-  <span class="map-point new physical" style="left:37%;top:23%">Cherbourg</span>
-  <span class="map-point active physical" style="left:30%;top:41%">Saint-Lô</span>
-  <span class="map-point active" style="left:33%;top:48%">Vire / Sud Manche</span>
-  <span class="map-point active physical" style="left:44%;top:35%">Caen</span>
-  <span class="map-point new" style="left:50%;top:43%">Deauville / Lisieux</span>
-  <span class="map-point active" style="left:53%;top:30%">Le Havre</span>
-  <span class="map-point new" style="left:60%;top:52%">Évreux</span>
-  <span class="map-point new" style="left:63%;top:19%">Arras</span>
-  <span class="map-point new" style="left:50%;top:59%">Chartres</span>
-  <span class="map-point new" style="left:33%;top:56%">Alençon</span>
-  <span class="map-point active" style="left:30%;top:66%">Angers</span>
-  <span class="map-point active" style="left:48%;top:74%">Vierzon</span>
-  <span class="map-point active" style="left:76%;top:40%">Strasbourg</span>
-  </div>
-  <div class="map-panel rd-card">
-    <h3>15 agences</h3>
-    <p class="muted mt-3">Une implantation concentrée dans le Grand Ouest, enrichie par des relais dans le Nord, le Centre et l’Est.</p>
-    <div class="grid-3 mt-5">
-      <div class="metric"><div class="num">8</div><div class="label">déjà en activité</div></div>
-      <div class="metric"><div class="num">7</div><div class="label">nouvelles agences</div></div>
-      <div class="metric"><div class="num">3</div><div class="label">agences physiques</div></div>
-    </div>
-  </div>
-  <div class="map-legend"><span class="pill active">Actives</span><span class="pill new">Nouvelles</span><span class="pill physical">Physiques</span></div>
-</div>
-
-<div class="note-hint mt-2">Carte volontairement stylisée : l’objectif est la localisation visuelle du réseau, pas la précision géographique au kilomètre.</div>
-
-<!--
-Notes speaker : présenter les agences comme une force collective. Mentionner explicitement les agences physiques : Caen, Saint-Lô, Cherbourg. Accueillir les nouveaux en les intégrant à une histoire déjà lancée.
--->
 
 ---
 
@@ -490,7 +433,7 @@ Notes speaker : rappeler que chaque franchisé conserve son autonomie entreprene
 layout: section
 ---
 
-<div class="section-tag">05 — Les 4 piliers</div>
+<div class="section-tag">04 — Les 4 piliers</div>
 
 # Ce qui rend la franchise forte
 
@@ -511,7 +454,7 @@ Notes speaker : introduire les quatre piliers comme une grille simple qui revien
     <div class="quote">Rassurer. Identifier. Donner confiance.</div>
     <p class="subtitle mt-6">Chaque interaction locale nourrit la réputation nationale.</p>
   </div>
-  <div class="photo-frame h-80"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-20-capture-de-la-fiche-google-de-caen.png" /></div>
+  <div class="photo-frame photo-contain h-96"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-20-capture-de-la-fiche-google-de-caen.png" /></div>
 </div>
 
 <!--
@@ -524,15 +467,20 @@ Notes speaker : parler attitude, qualité de service, présence locale. La marqu
 
 ## Des méthodes claires
 
-<div class="grid-4 mt-8">
-  <div class="card" v-click><h3>Prospection</h3><p class="muted">Prescripteurs</p></div>
-  <div class="card" v-click><h3>Réactivité</h3><p class="muted">Leads entrants</p></div>
-  <div class="card" v-click><h3>Relance</h3><p class="muted">Devis & suivi</p></div>
-  <div class="card" v-click><h3>Qualité</h3><p class="muted">Clients & rapports</p></div>
+<div class="grid-2 mt-8 items-center">
+  <div class="grid-2 method-cards">
+    <div class="card" v-click><h3>Prospection</h3><p class="muted">Prescripteurs</p></div>
+    <div class="card" v-click><h3>Réactivité</h3><p class="muted">Leads entrants</p></div>
+    <div class="card" v-click><h3>Relance</h3><p class="muted">Devis & suivi</p></div>
+    <div class="card" v-click><h3>Qualité</h3><p class="muted">Clients & rapports</p></div>
+  </div>
+  <div class="photo-frame h-80 immersion-side" v-click>
+    <img src="/assets/drive/immersion-alexis-selection.jpg" alt="Immersion terrain" />
+  </div>
 </div>
 
 <!--
-Notes speaker : les process doivent être simples et applicables. Leur rôle est de gagner du temps et de ne pas laisser chacun avancer seul.
+Notes speaker : les process doivent être simples et applicables. La photo rappelle que la méthode se transmet sur le terrain, pas seulement dans des supports.
 -->
 
 ---
@@ -725,7 +673,7 @@ Notes speaker : expliciter la logique réseau : chaque nouvelle implantation doi
 layout: section
 ---
 
-<div class="section-tag">10 — Ce que le franchiseur met en place</div>
+<div class="section-tag">05 — Ce que le franchiseur met en place</div>
 
 # Plus de cadre, plus d’outils, plus de rythme
 
@@ -759,67 +707,38 @@ layout: section
 Notes speaker : reformuler l'image interne maladroite du PDF en message premium. L'idée : implication totale et disponibilité.
 -->
 
----
-
-<div class="kicker">Engagement franchiseur</div>
-
-## 6 chantiers prioritaires
-
-<div class="grid-3 mt-8">
-  <div class="card" v-click><h3>Accompagnement dédié</h3><p class="muted">suivi, cadrage, disponibilité</p></div>
-  <div class="card" v-click><h3>Accords cadres</h3><p class="muted">groupes immobiliers, bailleurs, partenaires</p></div>
-  <div class="card" v-click><h3>Marketing continu</h3><p class="muted">leads, site, image nationale</p></div>
-  <div class="card" v-click><h3>Communication</h3><p class="muted">digital, opportunités média, cohérence</p></div>
-  <div class="card" v-click><h3>Catalogue</h3><p class="muted">produits, qualité, force d'achat</p></div>
-  <div class="card" v-click><h3>Veille marché</h3><p class="muted">innovation, réglementation, adaptation</p></div>
-</div>
-
-<!--
-Notes speaker : détailler oralement les mesures du PDF. Mettre l'accent sur l'application terrain et la régularité.
--->
 
 ---
 
-<div class="kicker">Animation réseau</div>
+<div class="kicker">Votre rôle</div>
 
-## Le cadre que nous voulons installer
+## Ce que le réseau attend de chaque agence
 
 <div class="grid-2 mt-8">
   <ul class="clean rd-card">
-    <li v-click>Animation plus régulière</li>
-    <li v-click>Points de suivi individuels</li>
-    <li v-click>Formations ciblées</li>
-    <li v-click>Supports commerciaux communs</li>
+    <li v-click>Participation active à la vie du réseau</li>
+    <li v-click>Application des méthodes communes</li>
+    <li v-click>Qualité de service constante avec vos clients</li>
   </ul>
   <ul class="clean rd-card">
-    <li v-click>Outils de pilotage</li>
-    <li v-click>Méthodes de prospection</li>
-    <li v-click>Partage des bonnes pratiques</li>
-    <li v-click>Accompagnement des nouveaux franchisés</li>
+    <li v-click>Réactivité et professionnalisme avec vos clients</li>
+    <li v-click>Retours terrain réguliers</li>
+    <li v-click>Volonté de progresser</li>
   </ul>
 </div>
 
+<div class="quote mt-8" v-click>Faire vivre la promesse RITMODiag, chaque jour, sur le terrain.</div>
+
 <!--
-Notes speaker : message clé : le franchiseur apporte le cadre, les outils et la méthode ; les franchisés les appliquent, les font vivre et remontent ce qui marche ou bloque.
+Notes speaker : insister sur le rôle actif des franchisés : le réseau n'existe pas uniquement par le franchiseur. Chaque agence porte la qualité, la méthode et les retours terrain qui permettent de progresser collectivement.
 -->
 
 ---
 layout: section
----
-
-<div class="section-tag">11 — Immersion Formation</div>
-
-# Apprendre ensemble, sur le terrain
-
-<div class="subtitle mt-6">Des photos et des formats courts pour rendre la transmission plus concrète.</div>
-
-<!--
-Notes speaker : introduire l'immersion formation comme preuve de concret : on apprend mieux quand les gestes et situations sont visibles.
--->
 
 ---
 
-<div class="kicker">Immersion Formation</div>
+<div class="kicker">Transmission terrain</div>
 
 ## Des formats vivants et applicables
 
@@ -874,85 +793,9 @@ Notes speaker : positionner la formation comme outil de duplication de qualité,
 
 ---
 layout: section
----
 
-<div class="section-tag">12 — Priorités de rentrée</div>
 
-# 5 priorités, un rythme commun
 
-<div class="subtitle mt-6">Des actions simples, mesurables, répétées.</div>
-
-<!--
-Notes speaker : annoncer les priorités sans les transformer en catalogue interminable.
--->
-
----
-
-<div class="kicker">Rentrée 2026</div>
-
-## Les 5 priorités opérationnelles
-
-<div class="grid-5 mt-8" style="display:grid;grid-template-columns:repeat(5,1fr);gap:.75rem">
-  <div class="metric" v-click><div class="num">01</div><div class="label">Relance commerciale</div></div>
-  <div class="metric" v-click><div class="num">02</div><div class="label">Suivi des leads</div></div>
-  <div class="metric" v-click><div class="num">03</div><div class="label">Visibilité locale</div></div>
-  <div class="metric" v-click><div class="num">04</div><div class="label">Qualité homogène</div></div>
-  <div class="metric" v-click><div class="num">05</div><div class="label">Pilotage</div></div>
-</div>
-
-<!--
-Notes speaker : pour chaque priorité, donner un exemple concret et une attente minimale. Garder le détail en discussion ou atelier.
--->
-
----
-
-<div class="kicker">Priorité 1</div>
-
-## Relance commerciale
-
-<div class="quote mt-8">Réactiver les prescripteurs et installer une routine.</div>
-
-<div class="agency-list mt-8"><span class="pill">contacts à potentiel</span><span class="pill">visites régulières</span><span class="pill">messages simples</span><span class="pill">suivi dans le temps</span></div>
-
-<!--
-Notes speaker : reprendre contact avec les prescripteurs, identifier les partenaires à potentiel et éviter les actions ponctuelles sans suivi.
--->
-
----
-
-<div class="kicker">Priorité 2</div>
-
-## Suivi des leads
-
-<div class="grid-3 mt-8">
-  <div class="metric" v-click><div class="num">Rappeler</div><div class="label">vite</div></div>
-  <div class="metric" v-click><div class="num">Relancer</div><div class="label">proprement</div></div>
-  <div class="metric" v-click><div class="num">Mesurer</div><div class="label">la transformation</div></div>
-</div>
-
-<!--
-Notes speaker : le lead non suivi est une fuite directe de chiffre d'affaires. Rester pratique.
--->
-
----
-
-<div class="kicker">Priorité 3</div>
-
-## Visibilité locale
-
-<div class="grid-2 mt-8 items-center">
-  <div class="quote">Être trouvé, compris, choisi.</div>
-  <ul class="clean rd-card">
-    <li v-click>Fiche Google Business Profile</li>
-    <li v-click>Avis clients</li>
-    <li v-click>Communication locale</li>
-    <li v-click>Discours homogène</li>
-  </ul>
-</div>
-
-<!--
-Notes speaker : simple et très concret. La visibilité locale est un levier immédiat.
--->
 
 ---
 
@@ -971,17 +814,6 @@ Notes speaker : qualité et pilotage se renforcent : la qualité sécurise la ma
 
 ---
 layout: section
----
-
-<div class="section-tag">13 — Temps d'échange</div>
-
-# Faire émerger du concret
-
-<div class="subtitle mt-6">Pas seulement des constats : des décisions, des besoins, des bonnes pratiques à partager.</div>
-
-<!--
-Notes speaker : ouvrir l'échange. Prévenir que l'objectif est d'aboutir à des actions concrètes.
--->
 
 ---
 

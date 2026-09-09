@@ -219,6 +219,17 @@ html, body, #app, .slidev-layout {
 .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; }
 .grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .7rem; }
+.grid-5 { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .6rem; }
+
+/* Cinq questions d'ouverture : colonnes etroites, donc chiffre plus discret
+   et libelle qui respire sur deux ou trois lignes. */
+.opening-grid .metric { min-height: 120px; padding: 1rem; }
+.opening-grid .metric .num { font-size: 2.4rem; }
+.opening-grid .metric .label { font-size: .8rem; }
+
+/* Pilier 2 : les quatre cartes methode tiennent une demi-largeur face a la photo. */
+.method-cards { gap: .7rem; align-content: start; }
+.method-cards .card { min-height: 118px; }
 
 .quote {
   font-size: 1.85rem;
@@ -382,6 +393,10 @@ ul.clean li::before {
   box-shadow: none;
 }
 .photo-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* Captures d'ecran et documents : cadrer sans rogner. */
+.photo-frame.photo-contain { background: var(--rd-primary-wash); display: flex; align-items: center; justify-content: center; }
+.photo-frame.photo-contain img { object-fit: contain; }
 
 .photo-cover { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .photo-overlay {
