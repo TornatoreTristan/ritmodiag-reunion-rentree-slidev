@@ -873,29 +873,36 @@ layout: section
 
 # Plus de cadre, plus d’outils, plus de rythme
 
-<div class="subtitle mt-4">Thomas, Tristan et Océane dédiés au développement de la franchise.</div>
+<div class="subtitle mt-4">Thomas, Tristan, Océane et Antonin dédiés au développement de la franchise.</div>
 
-<div class="team-portraits mt-7">
+<div class="team-portraits cols-4 mt-7">
   <div class="person-card">
     <div class="person-photo">
-      <img src="/assets/reunion-rentree/reunion-rentree-v20260908-09-thomas-fond-noir.png" alt="Portrait de Thomas sur fond noir" />
+      <img src="/assets/reunion-rentree/reunion-rentree-v20260909-thomas-fond-noir.jpg" alt="Portrait de Thomas sur fond noir" />
     </div>
     <div class="person-name">Thomas</div>
-    <div class="person-role">Animation & suivi réseau</div>
+    <div class="person-role">Animation, développement et suivi réseau</div>
   </div>
   <div class="person-card">
     <div class="person-photo">
       <img src="/assets/reunion-rentree/reunion-rentree-v20260908-01-tristan-fond-noir-9.png" alt="Portrait de Tristan sur fond noir" />
     </div>
     <div class="person-name">Tristan</div>
-    <div class="person-role">Cadre & développement franchise</div>
+    <div class="person-role">Marketing et acquisition clients</div>
   </div>
   <div class="person-card">
     <div class="person-photo">
       <img src="/assets/reunion-rentree/reunion-rentree-v20260908-05-oce-fond-noir.png" alt="Portrait d’Océane sur fond noir" />
     </div>
     <div class="person-name">Océane</div>
-    <div class="person-role">Outils & accompagnement terrain</div>
+    <div class="person-role">Marketing, Communication, Réseaux sociaux</div>
+  </div>
+  <div class="person-card">
+    <!-- Photo d'Antonin en attente : remplacer ce bloc par le meme
+         <div class="person-photo"><img src="…" alt="…" /></div> que les autres. -->
+    <div class="person-photo person-photo--pending"><span>A</span></div>
+    <div class="person-name">Antonin</div>
+    <div class="person-role">Accompagnement terrain</div>
   </div>
 </div>
 
