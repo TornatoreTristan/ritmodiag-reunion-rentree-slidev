@@ -7,76 +7,105 @@ transition: slide-left
 mdc: true
 drawings:
   persist: false
+favicon: /favicon.svg
 fonts:
-  sans: Satoshi
-  mono: JetBrains Mono
+  sans: Funnel Display
+  weights: '300,400,500,600,700'
 css: unocss
 ---
 
-<link rel="stylesheet" href="/style.css">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<div class="cover-orn cover-orn--back" aria-hidden="true">
+  <img class="orn orn-vert" src="/assets/ornements/vert.svg" alt="" />
+  <img class="orn orn-jaune" src="/assets/ornements/jaune.svg" alt="" />
+</div>
 
-<div class="kicker">RITMODiag • Rentrée 2026</div>
+<div class="cover-head">
 
-# Réunion de rentrée franchisés
+<img class="cover-logo" src="/assets/drive/logos/logo-ritmodiag.svg" alt="RITMODiag" />
 
-<div class="subtitle mt-6">Vision, structuration et développement du réseau</div>
+# Réunion<br><span class="accent">de rentrée franchisés</span>
 
-<div class="mt-10 flex items-center gap-5">
-  <img class="logo" src="/assets/drive/logos/logo-ritmodiag.svg" />
-  <div class="muted">Siège social — 500 boulevard Charles Cros, 14123 Ifs</div>
+</div>
+
+<div class="cover-wall" aria-hidden="true">
+  <div class="wall-col" style="--y:168px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-8.1s"><img src="/assets/wall/w001.jpg" alt="" /><img src="/assets/wall/w043.jpg" alt="" /><img src="/assets/wall/w085.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-10.1s"><img src="/assets/wall/w002.jpg" alt="" /><img src="/assets/wall/w044.jpg" alt="" /><img src="/assets/wall/w086.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-16.6s"><img src="/assets/wall/w003.jpg" alt="" /><img src="/assets/wall/w045.jpg" alt="" /><img src="/assets/wall/w087.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:132px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-8.4s"><img src="/assets/wall/w004.jpg" alt="" /><img src="/assets/wall/w046.jpg" alt="" /><img src="/assets/wall/w088.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-9.1s"><img src="/assets/wall/w005.jpg" alt="" /><img src="/assets/wall/w047.jpg" alt="" /><img src="/assets/wall/w089.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-10.6s"><img src="/assets/wall/w006.jpg" alt="" /><img src="/assets/wall/w048.jpg" alt="" /><img src="/assets/wall/w090.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:150px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-3.3s"><img src="/assets/wall/w007.jpg" alt="" /><img src="/assets/wall/w049.jpg" alt="" /><img src="/assets/wall/w091.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-9.2s"><img src="/assets/wall/w008.jpg" alt="" /><img src="/assets/wall/w050.jpg" alt="" /><img src="/assets/wall/w092.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-11.3s"><img src="/assets/wall/w009.jpg" alt="" /><img src="/assets/wall/w051.jpg" alt="" /><img src="/assets/wall/w093.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:104px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-14.3s"><img src="/assets/wall/w010.jpg" alt="" /><img src="/assets/wall/w052.jpg" alt="" /><img src="/assets/wall/w094.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-1.7s"><img src="/assets/wall/w011.jpg" alt="" /><img src="/assets/wall/w053.jpg" alt="" /><img src="/assets/wall/w095.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-5.5s"><img src="/assets/wall/w012.jpg" alt="" /><img src="/assets/wall/w054.jpg" alt="" /><img src="/assets/wall/w096.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:120px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-1.6s"><img src="/assets/wall/w013.jpg" alt="" /><img src="/assets/wall/w055.jpg" alt="" /><img src="/assets/wall/w097.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-14.6s"><img src="/assets/wall/w014.jpg" alt="" /><img src="/assets/wall/w056.jpg" alt="" /><img src="/assets/wall/w098.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-12.5s"><img src="/assets/wall/w015.jpg" alt="" /><img src="/assets/wall/w057.jpg" alt="" /><img src="/assets/wall/w099.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:76px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-0.8s"><img src="/assets/wall/w016.jpg" alt="" /><img src="/assets/wall/w058.jpg" alt="" /><img src="/assets/wall/w100.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-17.7s"><img src="/assets/wall/w017.jpg" alt="" /><img src="/assets/wall/w059.jpg" alt="" /><img src="/assets/wall/w101.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-17.4s"><img src="/assets/wall/w018.jpg" alt="" /><img src="/assets/wall/w060.jpg" alt="" /><img src="/assets/wall/w102.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:92px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-11.8s"><img src="/assets/wall/w019.jpg" alt="" /><img src="/assets/wall/w061.jpg" alt="" /><img src="/assets/wall/w103.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-11.1s"><img src="/assets/wall/w020.jpg" alt="" /><img src="/assets/wall/w062.jpg" alt="" /><img src="/assets/wall/w104.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-2.8s"><img src="/assets/wall/w021.jpg" alt="" /><img src="/assets/wall/w063.jpg" alt="" /><img src="/assets/wall/w105.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:52px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-0.3s"><img src="/assets/wall/w022.jpg" alt="" /><img src="/assets/wall/w064.jpg" alt="" /><img src="/assets/wall/w106.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-9.5s"><img src="/assets/wall/w023.jpg" alt="" /><img src="/assets/wall/w065.jpg" alt="" /><img src="/assets/wall/w107.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-1.1s"><img src="/assets/wall/w024.jpg" alt="" /><img src="/assets/wall/w066.jpg" alt="" /><img src="/assets/wall/w108.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:66px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-3.4s"><img src="/assets/wall/w025.jpg" alt="" /><img src="/assets/wall/w067.jpg" alt="" /><img src="/assets/wall/w109.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-4.4s"><img src="/assets/wall/w026.jpg" alt="" /><img src="/assets/wall/w068.jpg" alt="" /><img src="/assets/wall/w110.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-0.5s"><img src="/assets/wall/w027.jpg" alt="" /><img src="/assets/wall/w069.jpg" alt="" /><img src="/assets/wall/w111.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:30px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-8.4s"><img src="/assets/wall/w028.jpg" alt="" /><img src="/assets/wall/w070.jpg" alt="" /><img src="/assets/wall/w112.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-7.9s"><img src="/assets/wall/w029.jpg" alt="" /><img src="/assets/wall/w071.jpg" alt="" /><img src="/assets/wall/w113.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-15.2s"><img src="/assets/wall/w030.jpg" alt="" /><img src="/assets/wall/w072.jpg" alt="" /><img src="/assets/wall/w114.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:46px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-9.3s"><img src="/assets/wall/w031.jpg" alt="" /><img src="/assets/wall/w073.jpg" alt="" /><img src="/assets/wall/w115.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-11.5s"><img src="/assets/wall/w032.jpg" alt="" /><img src="/assets/wall/w074.jpg" alt="" /><img src="/assets/wall/w116.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-9.0s"><img src="/assets/wall/w033.jpg" alt="" /><img src="/assets/wall/w075.jpg" alt="" /><img src="/assets/wall/w117.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:12px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-11.9s"><img src="/assets/wall/w034.jpg" alt="" /><img src="/assets/wall/w076.jpg" alt="" /><img src="/assets/wall/w118.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-8.2s"><img src="/assets/wall/w035.jpg" alt="" /><img src="/assets/wall/w077.jpg" alt="" /><img src="/assets/wall/w119.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-5.0s"><img src="/assets/wall/w036.jpg" alt="" /><img src="/assets/wall/w078.jpg" alt="" /><img src="/assets/wall/w120.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:28px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-18.0s"><img src="/assets/wall/w037.jpg" alt="" /><img src="/assets/wall/w079.jpg" alt="" /><img src="/assets/wall/w121.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-17.9s"><img src="/assets/wall/w038.jpg" alt="" /><img src="/assets/wall/w080.jpg" alt="" /><img src="/assets/wall/w122.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-15.1s"><img src="/assets/wall/w039.jpg" alt="" /><img src="/assets/wall/w081.jpg" alt="" /><img src="/assets/wall/w123.jpg" alt="" /></div>
+  </div>
+  <div class="wall-col" style="--y:0px">
+    <div class="wall-tile" style="--ar:3 / 4;--d:-12.7s"><img src="/assets/wall/w040.jpg" alt="" /><img src="/assets/wall/w082.jpg" alt="" /><img src="/assets/wall/w124.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:4 / 5;--d:-5.7s"><img src="/assets/wall/w041.jpg" alt="" /><img src="/assets/wall/w083.jpg" alt="" /><img src="/assets/wall/w125.jpg" alt="" /></div>
+    <div class="wall-tile" style="--ar:1 / 1;--d:-4.1s"><img src="/assets/wall/w042.jpg" alt="" /><img src="/assets/wall/w084.jpg" alt="" /><img src="/assets/wall/w126.jpg" alt="" /></div>
+  </div>
+</div>
+
+<div class="cover-orn cover-orn--front" aria-hidden="true">
+  <img class="orn orn-rouge" src="/assets/ornements/rouge.svg" alt="" />
 </div>
 
 <!--
 Notes speaker : ouvrir avec énergie. Insister sur le fait que la journée n'est pas une réunion descendante mais un point de bascule collectif : le réseau existe, maintenant on le structure pour passer à l'étape supérieure.
--->
-
----
-layout: fact
----
-
-<div class="kicker">Intention centrale</div>
-
-# Grandir avec méthode, exigence et cohérence.
-
-<div class="subtitle mx-auto mt-8">Un réseau visible, lisible et cohérent — partout où RITMODiag s’implante.</div>
-
-<!--
-Notes speaker : phrase pivot de la journée. RITMODiag a déjà une base ; l'enjeu 2026 est de transformer cette base en système duplicable, visible et performant.
--->
-
----
-layout: section
----
-
-<div class="section-tag">01 — Énergie de la journée</div>
-
-# Poser le cadre
-
-<div class="subtitle mt-6">Se retrouver, partager, puis aligner le réseau autour du cap 2026.</div>
-
-<img class="corner" src="/assets/drive/logos/ritmodiag.svg" />
-
-<!--
-Notes speaker : rappeler le déroulé sans s'attarder sur l'horaire complet. Donner envie : échanges, stratégie, puis moment convivial.
--->
-
----
-
-<div class="kicker">Programme</div>
-
-## Une journée en trois temps
-
-<div class="timeline mt-10">
-  <div class="step" v-click><div class="time">09:00</div><strong>Accueil</strong><br><span class="muted">Arrivée & petit-déjeuner</span></div>
-  <div class="step" v-click><div class="time">10:00</div><strong>Partage</strong><br><span class="muted">Rencontre entre franchisés</span></div>
-  <div class="step" v-click><div class="time">12:30</div><strong>Pause</strong><br><span class="muted">Repas collectif + photos individuelles et groupe</span></div>
-  <div class="step" v-click><div class="time">14:00</div><strong>Vision</strong><br><span class="muted">Objectifs & structuration</span></div>
-  <div class="step" v-click><div class="time">18:00</div><strong>Convivial</strong><br><span class="muted">Apéro pétanque</span></div>
-</div>
-
-<!--
-Notes speaker : ne pas lire le programme. L'utiliser comme promesse de rythme : humain le matin, stratégique l'après-midi, convivial en clôture.
 -->
 
 ---
@@ -85,14 +114,132 @@ layout: image
 
 <img class="photo-cover" src="/assets/reunion-rentree/reunion-rentree-v20260908-13-formation-aziz-1.jpg" />
 <div class="photo-overlay"></div>
-<div class="photo-title">
-  <div class="kicker">Énergie réseau</div>
-  <h1>Se retrouver pour repartir alignés.</h1>
-  <div class="subtitle mt-6">Une respiration visuelle pour installer le collectif avant d’entrer dans les sujets de fond.</div>
+<div class="photo-content">
+
+<div class="kicker">Énergie réseau</div>
+
+<h1>Se retrouver pour repartir alignés.</h1>
+
+<div class="icon-grid mt-5">
+  <div class="icon-item">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3.2l2.7 5.5 6 .9-4.35 4.24 1.03 6L12 17.01l-5.38 2.83 1.03-6L3.3 9.6l6-.9z"/>
+    </svg></span>
+    <span>Clarifier les priorités de la rentrée</span>
+  </div>
+  <div class="icon-item">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 7h16M4 12h16M4 17h16"/>
+      <circle cx="9" cy="7" r="2" class="knob"/>
+      <circle cx="15" cy="12" r="2" class="knob"/>
+      <circle cx="7.5" cy="17" r="2" class="knob"/>
+    </svg></span>
+    <span>Aligner les pratiques entre franchisés</span>
+  </div>
+  <div class="icon-item">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 20.3l-1.35-1.24C5.9 14.76 3 12.12 3 8.88A4.38 4.38 0 0 1 7.4 4.5c1.4 0 2.75.65 3.6 1.68l1 1.2 1-1.2A4.65 4.65 0 0 1 16.6 4.5 4.38 4.38 0 0 1 21 8.88c0 3.24-2.9 5.88-7.65 10.18z"/>
+    </svg></span>
+    <span>Renforcer le sentiment d’appartenance</span>
+  </div>
+  <div class="icon-item">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12.00 4.90 L12.94 2.85 L15.85 3.65 L15.61 5.89 L17.02 6.98 L19.13 6.19 L20.63 8.82 L18.88 10.23 L19.10 12.00 L21.15 12.94 L20.35 15.85 L18.11 15.61 L17.02 17.02 L17.81 19.13 L15.18 20.63 L13.77 18.88 L12.00 19.10 L11.06 21.15 L8.15 20.35 L8.39 18.11 L6.98 17.02 L4.87 17.81 L3.37 15.18 L5.12 13.77 L4.90 12.00 L2.85 11.06 L3.65 8.15 L5.89 8.39 L6.98 6.98 L6.19 4.87 L8.82 3.37 L10.23 5.12 Z"/>
+      <circle cx="12" cy="12" r="3.1"/>
+    </svg></span>
+    <span>Définir une méthode commune</span>
+  </div>
+  <div class="icon-item">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="9" cy="8.1" r="3.2"/>
+      <path d="M3.3 19.6a5.7 5.7 0 0 1 11.4 0"/>
+      <circle cx="16.9" cy="8.8" r="2.3"/>
+      <path d="M15.4 14.5a5 5 0 0 1 5.3 5.1"/>
+    </svg></span>
+    <span>Partager les retours terrain</span>
+  </div>
+  <div class="icon-item">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 2.4c2.8 2.35 4.3 5.7 4.3 9.3 0 1.5-.26 2.95-.75 4.3H8.45A13 13 0 0 1 7.7 11.7c0-3.6 1.5-6.95 4.3-9.3z"/>
+      <circle cx="12" cy="9.7" r="1.8"/>
+      <path d="M8.7 13.1 5.9 16a2.6 2.6 0 0 0-.8 1.9v2l3.6-2.1"/>
+      <path d="M15.3 13.1 18.1 16c.5.5.8 1.2.8 1.9v2l-3.6-2.1"/>
+      <path d="M10.5 19.1v2.5M13.5 19.1v2.5"/>
+    </svg></span>
+    <span>Préparer le développement du réseau</span>
+  </div>
+</div>
+
 </div>
 
 <!--
 Notes speaker : faire le lien avec la dynamique humaine de la journée : anciens, nouveaux, échanges et qualité des relations.
+-->
+
+---
+
+<div class="kicker">Programme</div>
+
+## Planning de la journée
+
+<div class="timeline mt-9">
+
+  <div class="step" v-click>
+    <div class="time">10:00</div>
+    <span class="ico">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="9" cy="8.1" r="3.2"/>
+        <path d="M3.3 19.6a5.7 5.7 0 0 1 11.4 0"/>
+        <circle cx="16.9" cy="8.8" r="2.3"/>
+        <path d="M15.4 14.5a5 5 0 0 1 5.3 5.1"/>
+      </svg>
+    </span>
+    <strong>Partage</strong>
+    <span class="muted">Rencontre entre franchisés</span>
+  </div>
+
+  <div class="step" v-click>
+    <div class="time">12:30</div>
+    <span class="ico">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 9.5h11.5v5.2A4.3 4.3 0 0 1 11.2 19H8.3A4.3 4.3 0 0 1 4 14.7z"/>
+        <path d="M15.5 11h1.7a2.4 2.4 0 0 1 0 4.8h-1.7"/>
+        <path d="M7.3 3.4c-.7.9-.7 1.9 0 2.8M11.6 3.4c-.7.9-.7 1.9 0 2.8"/>
+      </svg>
+    </span>
+    <strong>Pause</strong>
+    <span class="muted">Repas collectif + photos</span>
+  </div>
+
+  <div class="step" v-click>
+    <div class="time">14:00</div>
+    <span class="ico">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="8.4"/>
+        <circle cx="12" cy="12" r="4.9"/>
+        <circle cx="12" cy="12" r="1.5"/>
+      </svg>
+    </span>
+    <strong>Vision</strong>
+    <span class="muted">Objectifs &amp; structuration</span>
+  </div>
+
+  <div class="step" v-click>
+    <div class="time">18:00</div>
+    <span class="ico">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6.6 3.5h10.8l-1.15 6.4a4.45 4.45 0 0 1-8.5 0z"/>
+        <path d="M12 14.4v5.1M8.6 20.5h6.8"/>
+      </svg>
+    </span>
+    <strong>Convivial</strong>
+    <span class="muted">Apéro pétanque</span>
+  </div>
+
+</div>
+
+<!--
+Notes speaker : ne pas lire le programme. L'utiliser comme promesse de rythme : humain le matin, stratégique l'après-midi, convivial en clôture.
 -->
 
 ---
@@ -269,25 +416,27 @@ Notes speaker : transition vers une slide réseau explicite, importante pour les
 ## Les agences RITMODiag en France
 
 <div class="france-map mt-5">
+  <div class="map-canvas">
   <svg viewBox="0 0 360 470" aria-label="Carte stylisée de la France">
     <path d="M155 18 L238 38 L308 96 L321 178 L288 250 L303 326 L249 414 L181 451 L103 423 L74 352 L30 312 L46 238 L23 164 L83 105 Z" fill="#f8fcfa" stroke="#56a681" stroke-width="5"/>
     <path d="M84 105 L141 138 L204 126 L266 165 M47 238 L122 246 L192 226 L288 250 M74 352 L143 318 L221 338 L249 414" fill="none" stroke="rgba(86,166,129,.18)" stroke-width="2"/>
   </svg>
-  <span class="map-point active" style="left:19%;top:26%">Morlaix</span>
-  <span class="map-point new" style="left:28%;top:31%">Saint-Malo</span>
-  <span class="map-point new physical" style="left:34%;top:25%">Cherbourg</span>
-  <span class="map-point active physical" style="left:38%;top:36%">Saint-Lô</span>
-  <span class="map-point active" style="left:40%;top:42%">Vire / Sud Manche</span>
-  <span class="map-point active physical" style="left:45%;top:36%">Caen</span>
-  <span class="map-point new" style="left:49%;top:38%">Deauville / Lisieux</span>
-  <span class="map-point active" style="left:55%;top:30%">Le Havre</span>
-  <span class="map-point new" style="left:58%;top:42%">Évreux</span>
-  <span class="map-point new" style="left:57%;top:20%">Arras</span>
-  <span class="map-point new" style="left:54%;top:49%">Chartres</span>
-  <span class="map-point new" style="left:47%;top:51%">Alençon</span>
-  <span class="map-point active" style="left:40%;top:59%">Angers</span>
-  <span class="map-point active" style="left:59%;top:66%">Vierzon</span>
-  <span class="map-point active" style="left:75%;top:43%">Strasbourg</span>
+  <span class="map-point active" style="left:16%;top:29%">Morlaix</span>
+  <span class="map-point new" style="left:25%;top:35%">Saint-Malo</span>
+  <span class="map-point new physical" style="left:37%;top:23%">Cherbourg</span>
+  <span class="map-point active physical" style="left:30%;top:41%">Saint-Lô</span>
+  <span class="map-point active" style="left:33%;top:48%">Vire / Sud Manche</span>
+  <span class="map-point active physical" style="left:44%;top:35%">Caen</span>
+  <span class="map-point new" style="left:50%;top:43%">Deauville / Lisieux</span>
+  <span class="map-point active" style="left:53%;top:30%">Le Havre</span>
+  <span class="map-point new" style="left:60%;top:52%">Évreux</span>
+  <span class="map-point new" style="left:63%;top:19%">Arras</span>
+  <span class="map-point new" style="left:50%;top:59%">Chartres</span>
+  <span class="map-point new" style="left:33%;top:56%">Alençon</span>
+  <span class="map-point active" style="left:30%;top:66%">Angers</span>
+  <span class="map-point active" style="left:48%;top:74%">Vierzon</span>
+  <span class="map-point active" style="left:76%;top:40%">Strasbourg</span>
+  </div>
   <div class="map-panel rd-card">
     <h3>15 agences</h3>
     <p class="muted mt-3">Une implantation concentrée dans le Grand Ouest, enrichie par des relais dans le Nord, le Centre et l’Est.</p>

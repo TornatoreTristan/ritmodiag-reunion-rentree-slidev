@@ -26,3 +26,7 @@ Thumbs.db
 # Archives / generated exports
 *.zip
 *.pdf
+
+# Photos sources non optimisees (2,9 Go, 3456x4608).
+# Les vignettes servies par le deck sont dans public/assets/wall/ et restent versionnees.
+public/assets/photos/
