@@ -170,6 +170,92 @@ html, body, #app, .slidev-layout {
 .rd-card h3, .card h3 { margin-bottom: .45rem; }
 .rd-card p, .card p, .rd-card li, .card li { font-size: .88rem; }
 
+/* --------------------------------------------------------------------------
+   Grille de cartes a picto
+   Meme surface que .card — blanche, filet fin, pas d'ombre. La couleur reste
+   ou le site la met : dans la pastille posee derriere l'icone.
+   -------------------------------------------------------------------------- */
+
+.accent-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; }
+.accent-grid.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .75rem; }
+.accent-grid.cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .7rem; }
+.accent-grid.cols-5 .accent-card { padding: 1rem .95rem 1.1rem; }
+.accent-card h3:last-child { margin-bottom: 0; }
+
+.accent-card {
+  --f-color: var(--rd-primary);
+  background: var(--rd-white);
+  border: 1px solid var(--rd-line);
+  border-radius: var(--rd-radius);
+  padding: 1.05rem 1.15rem 1.15rem;
+  box-shadow: none;
+}
+
+/* Picto du site : pastille pleine posee derriere l'icone, debordant en bas a
+   droite. Ici c'est elle qui porte la couleur, une par carte. */
+.accent-card .ico { width: 26px; height: 26px; margin-bottom: .85rem; }
+.accent-card .ico::before { background: var(--f-color); }
+.accent-card .ico svg { width: 26px; height: 26px; color: var(--rd-ink); }
+
+.accent-card h3 { margin: 0 0 .3rem; font-size: 1.02rem; }
+.accent-card p { margin: 0; font-size: .85rem; line-height: 1.4; color: var(--rd-muted); }
+
+/* Les trois couleurs du logo, a alterner dans l'ordre sur la grille. */
+.accent-card.c-vert  { --f-color: var(--rd-accent-leaf); }
+.accent-card.c-jaune { --f-color: var(--rd-accent-sun); }
+.accent-card.c-rouge { --f-color: var(--rd-accent-clay); }
+
+/* --------------------------------------------------------------------------
+   Listes en lignes
+   Remplace les puces posees dans une carte a moitie vide : chaque item devient
+   une vraie ligne, texte a la couleur d'encre, separee par un filet fin. Le
+   point prend une des trois couleurs du logo, en alternance.
+   -------------------------------------------------------------------------- */
+
+.rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 3.2rem;
+}
+.rows.one-col { grid-template-columns: minmax(0, 1fr); }
+
+.rows li {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  margin: 0;
+  padding: .95rem .2rem;
+  border-bottom: 1px solid var(--rd-line);
+  color: var(--rd-ink);
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.rows li::before {
+  content: '';
+  flex: 0 0 auto;
+  width: .52rem;
+  height: .52rem;
+  border-radius: 999px;
+  background: var(--rd-primary);
+}
+/* Les trois couleurs du logo, en boucle sur les lignes. */
+.rows li:nth-child(3n+1)::before { background: var(--rd-accent-leaf); }
+.rows li:nth-child(3n+2)::before { background: var(--rd-accent-sun); }
+.rows li:nth-child(3n+3)::before { background: var(--rd-accent-clay); }
+
+/* Titre et liste cote a cote : le titre tient la colonne de gauche avec sa
+   phrase de fin, la liste occupe la droite. Evite la bande vide qu'on avait
+   sous un titre pleine largeur. */
+.split-list { display: grid; grid-template-columns: 0.92fr 1.08fr; gap: 3.4rem; align-items: start; }
+.split-list > :first-child > :first-child { margin-top: 0; }
+.split-list h2 { margin-bottom: 0; }
+.split-list .rows li:first-child { padding-top: 0; }
+.split-list .rows li:last-child { border-bottom: none; }
+
 .metric {
   background: var(--rd-white);
   border: 1px solid var(--rd-line);
@@ -214,6 +300,18 @@ html, body, #app, .slidev-layout {
 .pill.new      { background: var(--rd-secondary);    border-color: rgba(201, 164, 25, .3); color: #7d6712; }
 .pill.physical { background: var(--rd-primary);      border-color: var(--rd-primary); color: #fff; }
 
+/* Les trois couleurs du logo en pastilles, a alterner sur une serie de mots. */
+.pill.c-vert  { background: color-mix(in srgb, var(--rd-accent-leaf) 13%, #fff); border-color: color-mix(in srgb, var(--rd-accent-leaf) 34%, transparent); color: var(--rd-primary-deep); }
+.pill.c-jaune { background: color-mix(in srgb, var(--rd-accent-sun) 20%, #fff);  border-color: color-mix(in srgb, #c9a419 34%, transparent);            color: #7d6712; }
+.pill.c-rouge { background: color-mix(in srgb, var(--rd-accent-clay) 11%, #fff); border-color: color-mix(in srgb, var(--rd-accent-clay) 32%, transparent); color: #9c3d2e; }
+
+/* Serie de mots-cles posee sous une citation : plus lisible que la liste
+   d'agences, qui est volontairement minuscule. */
+.tag-row { display: flex; flex-wrap: wrap; gap: .5rem; }
+.tag-row .pill { font-size: .84rem; padding: .4rem .9rem; }
+/* Force un passage a la ligne a un endroit choisi dans la serie. */
+.tag-row .tag-break { flex-basis: 100%; height: 0; }
+
 .rule { height: 1px; background: var(--rd-line); margin: 1.1rem 0; }
 
 .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
@@ -223,13 +321,19 @@ html, body, #app, .slidev-layout {
 
 /* Cinq questions d'ouverture : colonnes etroites, donc chiffre plus discret
    et libelle qui respire sur deux ou trois lignes. */
-.opening-grid .metric { min-height: 120px; padding: 1rem; }
+.opening-grid .metric { min-height: 120px; padding: 1rem; border-left: 1px solid var(--rd-line); }
 .opening-grid .metric .num { font-size: 2.4rem; }
 .opening-grid .metric .label { font-size: .8rem; }
 
+/* Bandeau photo sous les questions d'ouverture : quatre vignettes basses et
+   larges, juste la pour ancrer les questions dans le quotidien terrain. */
+.photo-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .6rem; }
+.photo-strip .photo-frame { aspect-ratio: 16 / 10; }
+
 /* Pilier 2 : les quatre cartes methode tiennent une demi-largeur face a la photo. */
 .method-cards { gap: .7rem; align-content: start; }
-.method-cards .card { min-height: 118px; }
+.method-cards .card,
+.method-cards .accent-card { min-height: 118px; }
 
 .quote {
   font-size: 1.85rem;
@@ -397,6 +501,17 @@ ul.clean li::before {
 /* Captures d'ecran et documents : cadrer sans rogner. */
 .photo-frame.photo-contain { background: var(--rd-primary-wash); display: flex; align-items: center; justify-content: center; }
 .photo-frame.photo-contain img { object-fit: contain; }
+
+/* Capture d'ecran haute (fiche Google) posee dans un cadre paysage : on garde
+   le haut, la seule partie lisible a cette taille, au lieu de reduire toute la
+   capture jusqu'a l'illisible. */
+.photo-frame.shot-top img { object-fit: cover; object-position: 50% 0%; }
+
+/* Chiffres de preuve poses a plat, sans cadre : ils accompagnent une citation,
+   ils ne forment pas un tableau. */
+.proof { display: flex; gap: 2.6rem; }
+.proof .num { font-size: 2.1rem; font-weight: 600; line-height: 1; letter-spacing: -.03em; color: var(--rd-primary); }
+.proof .label { margin-top: .35rem; font-size: .82rem; color: var(--rd-muted); }
 
 .photo-cover { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .photo-overlay {
@@ -634,6 +749,9 @@ ul.clean li::before {
 .cover-head { position: relative; z-index: 4; }
 .cover-head > :first-child { margin-top: 0; }
 .cover-head h1 { font-size: 3.1rem; max-width: none; }
+/* Cloture : titre reduit de 40 % pour laisser la place au bloc petanque.
+   Specificite alignee sur .slidev-layout.cover h1, qui fixe le corps reel. */
+.slidev-layout.cover .cover-head--sm h1 { font-size: 2.1rem; }
 .cover-logo { height: 29px; width: auto; margin: 0 0 1.5rem; display: block; }
 
 /* Ornements de la charte : les trois arcs du site, laisses a cheval sur les
@@ -704,6 +822,71 @@ ul.clean li::before {
   animation-delay: var(--d, 0s);
 }
 .wall-tile img:nth-child(3) { animation-name: rd-wall-3; }
+
+/* Bandeau de photos en pied de slide : une seule rangee de tuiles egales,
+   alignees sur le bord bas. Meme fondu que le mur de la couverture, mais une
+   forme calme qui ne concurrence pas le texte. */
+.photo-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4px;            /* au-dessus du filet vert de pied de slide */
+  z-index: 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  padding: 0 5px;
+  pointer-events: none;
+}
+/* Chaque tuile porte sa propre hauteur : posees sur le bord bas, elles
+   dessinent un escalier qui descend jusqu'au centre puis remonte. */
+.band-tile {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  height: var(--h, 132px);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--rd-white);
+}
+.band-tile img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.band-tile img:nth-child(1) { opacity: 1; }
+.band-tile img:nth-child(2),
+.band-tile img:nth-child(3) {
+  opacity: 0;
+  animation: rd-wall-2 18s linear infinite;
+  animation-delay: var(--d, 0s);
+}
+.band-tile img:nth-child(3) { animation-name: rd-wall-3; }
+
+/* La slide qui porte le bandeau : contenu au-dessus, et de la place reservee
+   en bas pour que le texte ne vienne pas s'y poser. */
+.slidev-layout:has(.photo-band) { overflow: hidden; padding-bottom: 12rem; }
+/* Le theme centre le contenu dans un .my-auto ; s'il est positionne, le
+   bandeau se cale sur lui au lieu de la slide. On le laisse statique. */
+.slidev-layout:has(.photo-band) .my-auto { position: static; }
+
+/* Cloture : la relance pétanque, plus forte que la sous-ligne mais sans
+   concurrencer le remerciement. */
+.petanque-line { font-size: 1.5rem; font-weight: 600; letter-spacing: -.02em; color: var(--rd-ink); }
+/* Bloc pose sous le titre de cloture : l'adresse tient sur une ligne. */
+.petanque .subtitle { max-width: 34ch; margin-top: .5rem; line-height: 1.5; }
+/* Le logo de pied vient se poser au centre, sous la sous-ligne, dans le creux
+   de l'escalier — plutot que dans le coin ou il tombait sur les photos. */
+.slidev-layout:has(.photo-band)::before {
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(84px + 2.6rem);
+  background-position: center;
+}
 
 @keyframes rd-wall-2 {
   0%, 33.33%      { opacity: 0; }
