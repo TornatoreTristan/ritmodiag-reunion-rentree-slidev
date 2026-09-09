@@ -7,101 +7,24 @@ transition: slide-left
 mdc: true
 drawings:
   persist: false
-favicon: /favicon.svg
 fonts:
-  sans: Funnel Display
-  weights: '300,400,500,600,700'
+  sans: Satoshi
+  mono: JetBrains Mono
 css: unocss
 ---
 
-<div class="cover-orn cover-orn--back" aria-hidden="true">
-  <img class="orn orn-vert" src="/assets/ornements/vert.svg" alt="" />
-  <img class="orn orn-jaune" src="/assets/ornements/jaune.svg" alt="" />
-</div>
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
-<div class="cover-head">
+<div class="kicker">RITMODiag • Rentrée 2026</div>
 
-<img class="cover-logo" src="/assets/drive/logos/logo-ritmodiag.svg" alt="RITMODiag" />
+# Réunion de rentrée franchisés
 
-# Réunion<br><span class="accent">de rentrée franchisés</span>
+<div class="subtitle mt-6">Vision, structuration et développement du réseau</div>
 
-</div>
-
-<div class="cover-wall" aria-hidden="true">
-  <div class="wall-col" style="--y:168px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-8.1s"><img src="/assets/wall/w001.jpg" alt="" /><img src="/assets/wall/w043.jpg" alt="" /><img src="/assets/wall/w085.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-10.1s"><img src="/assets/wall/w002.jpg" alt="" /><img src="/assets/wall/w044.jpg" alt="" /><img src="/assets/wall/w086.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-16.6s"><img src="/assets/wall/w003.jpg" alt="" /><img src="/assets/wall/w045.jpg" alt="" /><img src="/assets/wall/w087.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:132px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-8.4s"><img src="/assets/wall/w004.jpg" alt="" /><img src="/assets/wall/w046.jpg" alt="" /><img src="/assets/wall/w088.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-9.1s"><img src="/assets/wall/w005.jpg" alt="" /><img src="/assets/wall/w047.jpg" alt="" /><img src="/assets/wall/w089.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-10.6s"><img src="/assets/wall/w006.jpg" alt="" /><img src="/assets/wall/w048.jpg" alt="" /><img src="/assets/wall/w090.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:150px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-3.3s"><img src="/assets/wall/w007.jpg" alt="" /><img src="/assets/wall/w049.jpg" alt="" /><img src="/assets/wall/w091.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-9.2s"><img src="/assets/wall/w008.jpg" alt="" /><img src="/assets/wall/w050.jpg" alt="" /><img src="/assets/wall/w092.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-11.3s"><img src="/assets/wall/w009.jpg" alt="" /><img src="/assets/wall/w051.jpg" alt="" /><img src="/assets/wall/w093.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:104px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-14.3s"><img src="/assets/wall/w010.jpg" alt="" /><img src="/assets/wall/w052.jpg" alt="" /><img src="/assets/wall/w094.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-1.7s"><img src="/assets/wall/w011.jpg" alt="" /><img src="/assets/wall/w053.jpg" alt="" /><img src="/assets/wall/w095.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-5.5s"><img src="/assets/wall/w012.jpg" alt="" /><img src="/assets/wall/w054.jpg" alt="" /><img src="/assets/wall/w096.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:120px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-1.6s"><img src="/assets/wall/w013.jpg" alt="" /><img src="/assets/wall/w055.jpg" alt="" /><img src="/assets/wall/w097.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-14.6s"><img src="/assets/wall/w014.jpg" alt="" /><img src="/assets/wall/w056.jpg" alt="" /><img src="/assets/wall/w098.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-12.5s"><img src="/assets/wall/w015.jpg" alt="" /><img src="/assets/wall/w057.jpg" alt="" /><img src="/assets/wall/w099.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:76px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-0.8s"><img src="/assets/wall/w016.jpg" alt="" /><img src="/assets/wall/w058.jpg" alt="" /><img src="/assets/wall/w100.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-17.7s"><img src="/assets/wall/w017.jpg" alt="" /><img src="/assets/wall/w059.jpg" alt="" /><img src="/assets/wall/w101.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-17.4s"><img src="/assets/wall/w018.jpg" alt="" /><img src="/assets/wall/w060.jpg" alt="" /><img src="/assets/wall/w102.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:92px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-11.8s"><img src="/assets/wall/w019.jpg" alt="" /><img src="/assets/wall/w061.jpg" alt="" /><img src="/assets/wall/w103.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-11.1s"><img src="/assets/wall/w020.jpg" alt="" /><img src="/assets/wall/w062.jpg" alt="" /><img src="/assets/wall/w104.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-2.8s"><img src="/assets/wall/w021.jpg" alt="" /><img src="/assets/wall/w063.jpg" alt="" /><img src="/assets/wall/w105.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:52px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-0.3s"><img src="/assets/wall/w022.jpg" alt="" /><img src="/assets/wall/w064.jpg" alt="" /><img src="/assets/wall/w106.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-9.5s"><img src="/assets/wall/w023.jpg" alt="" /><img src="/assets/wall/w065.jpg" alt="" /><img src="/assets/wall/w107.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-1.1s"><img src="/assets/wall/w024.jpg" alt="" /><img src="/assets/wall/w066.jpg" alt="" /><img src="/assets/wall/w108.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:66px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-3.4s"><img src="/assets/wall/w025.jpg" alt="" /><img src="/assets/wall/w067.jpg" alt="" /><img src="/assets/wall/w109.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-4.4s"><img src="/assets/wall/w026.jpg" alt="" /><img src="/assets/wall/w068.jpg" alt="" /><img src="/assets/wall/w110.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-0.5s"><img src="/assets/wall/w027.jpg" alt="" /><img src="/assets/wall/w069.jpg" alt="" /><img src="/assets/wall/w111.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:30px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-8.4s"><img src="/assets/wall/w028.jpg" alt="" /><img src="/assets/wall/w070.jpg" alt="" /><img src="/assets/wall/w112.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-7.9s"><img src="/assets/wall/w029.jpg" alt="" /><img src="/assets/wall/w071.jpg" alt="" /><img src="/assets/wall/w113.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-15.2s"><img src="/assets/wall/w030.jpg" alt="" /><img src="/assets/wall/w072.jpg" alt="" /><img src="/assets/wall/w114.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:46px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-9.3s"><img src="/assets/wall/w031.jpg" alt="" /><img src="/assets/wall/w073.jpg" alt="" /><img src="/assets/wall/w115.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-11.5s"><img src="/assets/wall/w032.jpg" alt="" /><img src="/assets/wall/w074.jpg" alt="" /><img src="/assets/wall/w116.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-9.0s"><img src="/assets/wall/w033.jpg" alt="" /><img src="/assets/wall/w075.jpg" alt="" /><img src="/assets/wall/w117.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:12px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-11.9s"><img src="/assets/wall/w034.jpg" alt="" /><img src="/assets/wall/w076.jpg" alt="" /><img src="/assets/wall/w118.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-8.2s"><img src="/assets/wall/w035.jpg" alt="" /><img src="/assets/wall/w077.jpg" alt="" /><img src="/assets/wall/w119.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-5.0s"><img src="/assets/wall/w036.jpg" alt="" /><img src="/assets/wall/w078.jpg" alt="" /><img src="/assets/wall/w120.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:28px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-18.0s"><img src="/assets/wall/w037.jpg" alt="" /><img src="/assets/wall/w079.jpg" alt="" /><img src="/assets/wall/w121.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-17.9s"><img src="/assets/wall/w038.jpg" alt="" /><img src="/assets/wall/w080.jpg" alt="" /><img src="/assets/wall/w122.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-15.1s"><img src="/assets/wall/w039.jpg" alt="" /><img src="/assets/wall/w081.jpg" alt="" /><img src="/assets/wall/w123.jpg" alt="" /></div>
-  </div>
-  <div class="wall-col" style="--y:0px">
-    <div class="wall-tile" style="--ar:3 / 4;--d:-12.7s"><img src="/assets/wall/w040.jpg" alt="" /><img src="/assets/wall/w082.jpg" alt="" /><img src="/assets/wall/w124.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:4 / 5;--d:-5.7s"><img src="/assets/wall/w041.jpg" alt="" /><img src="/assets/wall/w083.jpg" alt="" /><img src="/assets/wall/w125.jpg" alt="" /></div>
-    <div class="wall-tile" style="--ar:1 / 1;--d:-4.1s"><img src="/assets/wall/w042.jpg" alt="" /><img src="/assets/wall/w084.jpg" alt="" /><img src="/assets/wall/w126.jpg" alt="" /></div>
-  </div>
-</div>
-
-<div class="cover-orn cover-orn--front" aria-hidden="true">
-  <img class="orn orn-rouge" src="/assets/ornements/rouge.svg" alt="" />
+<div class="mt-10 flex items-center gap-5">
+  <img class="logo" src="/assets/drive/logos/logo-ritmodiag.svg" />
+  <div class="muted">Siège social — 500 boulevard Charles Cros, 14123 Ifs</div>
 </div>
 
 <!--
@@ -109,133 +32,44 @@ Notes speaker : ouvrir avec énergie. Insister sur le fait que la journée n'est
 -->
 
 ---
-layout: image
+layout: fact
 ---
+<div class="kicker">Intention centrale</div>
 
-<img class="photo-cover" src="/assets/reunion-rentree/reunion-rentree-v20260908-13-formation-aziz-1.jpg" />
-<div class="photo-overlay"></div>
-<div class="photo-content">
+# Grandir avec méthode, exigence et cohérence.
 
-<div class="kicker">Énergie réseau</div>
-
-<h1>Se retrouver pour repartir alignés.</h1>
-
-<div class="icon-grid mt-5">
-  <div class="icon-item">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 3.2l2.7 5.5 6 .9-4.35 4.24 1.03 6L12 17.01l-5.38 2.83 1.03-6L3.3 9.6l6-.9z"/>
-    </svg></span>
-    <span>Clarifier les priorités de la rentrée</span>
-  </div>
-  <div class="icon-item">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M4 7h16M4 12h16M4 17h16"/>
-      <circle cx="9" cy="7" r="2" class="knob"/>
-      <circle cx="15" cy="12" r="2" class="knob"/>
-      <circle cx="7.5" cy="17" r="2" class="knob"/>
-    </svg></span>
-    <span>Aligner les pratiques entre franchisés</span>
-  </div>
-  <div class="icon-item">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 20.3l-1.35-1.24C5.9 14.76 3 12.12 3 8.88A4.38 4.38 0 0 1 7.4 4.5c1.4 0 2.75.65 3.6 1.68l1 1.2 1-1.2A4.65 4.65 0 0 1 16.6 4.5 4.38 4.38 0 0 1 21 8.88c0 3.24-2.9 5.88-7.65 10.18z"/>
-    </svg></span>
-    <span>Renforcer le sentiment d’appartenance</span>
-  </div>
-  <div class="icon-item">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12.00 4.90 L12.94 2.85 L15.85 3.65 L15.61 5.89 L17.02 6.98 L19.13 6.19 L20.63 8.82 L18.88 10.23 L19.10 12.00 L21.15 12.94 L20.35 15.85 L18.11 15.61 L17.02 17.02 L17.81 19.13 L15.18 20.63 L13.77 18.88 L12.00 19.10 L11.06 21.15 L8.15 20.35 L8.39 18.11 L6.98 17.02 L4.87 17.81 L3.37 15.18 L5.12 13.77 L4.90 12.00 L2.85 11.06 L3.65 8.15 L5.89 8.39 L6.98 6.98 L6.19 4.87 L8.82 3.37 L10.23 5.12 Z"/>
-      <circle cx="12" cy="12" r="3.1"/>
-    </svg></span>
-    <span>Définir une méthode commune</span>
-  </div>
-  <div class="icon-item">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="9" cy="8.1" r="3.2"/>
-      <path d="M3.3 19.6a5.7 5.7 0 0 1 11.4 0"/>
-      <circle cx="16.9" cy="8.8" r="2.3"/>
-      <path d="M15.4 14.5a5 5 0 0 1 5.3 5.1"/>
-    </svg></span>
-    <span>Partager les retours terrain</span>
-  </div>
-  <div class="icon-item">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 2.4c2.8 2.35 4.3 5.7 4.3 9.3 0 1.5-.26 2.95-.75 4.3H8.45A13 13 0 0 1 7.7 11.7c0-3.6 1.5-6.95 4.3-9.3z"/>
-      <circle cx="12" cy="9.7" r="1.8"/>
-      <path d="M8.7 13.1 5.9 16a2.6 2.6 0 0 0-.8 1.9v2l3.6-2.1"/>
-      <path d="M15.3 13.1 18.1 16c.5.5.8 1.2.8 1.9v2l-3.6-2.1"/>
-      <path d="M10.5 19.1v2.5M13.5 19.1v2.5"/>
-    </svg></span>
-    <span>Préparer le développement du réseau</span>
-  </div>
-</div>
-
-</div>
+<div class="subtitle mx-auto mt-8">Un réseau visible, lisible et cohérent — partout où RITMODiag s’implante.</div>
 
 <!--
-Notes speaker : faire le lien avec la dynamique humaine de la journée : anciens, nouveaux, échanges et qualité des relations.
+Notes speaker : phrase pivot de la journée. RITMODiag a déjà une base ; l'enjeu 2026 est de transformer cette base en système duplicable, visible et performant.
 -->
 
 ---
+layout: section
+---
+<div class="section-tag">01 — Énergie de la journée</div>
 
+# Poser le cadre
+
+<div class="subtitle mt-6">Se retrouver, partager, puis aligner le réseau autour du cap 2026.</div>
+
+<img class="corner" src="/assets/drive/logos/ritmodiag.svg" />
+
+<!--
+Notes speaker : rappeler le déroulé sans s'attarder sur l'horaire complet. Donner envie : échanges, stratégie, puis moment convivial.
+-->
+
+---
 <div class="kicker">Programme</div>
 
-## Planning de la journée
+## Une journée en trois temps
 
-<div class="timeline mt-9">
-
-  <div class="step" v-click>
-    <div class="time">10:00</div>
-    <span class="ico">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="9" cy="8.1" r="3.2"/>
-        <path d="M3.3 19.6a5.7 5.7 0 0 1 11.4 0"/>
-        <circle cx="16.9" cy="8.8" r="2.3"/>
-        <path d="M15.4 14.5a5 5 0 0 1 5.3 5.1"/>
-      </svg>
-    </span>
-    <strong>Partage</strong>
-    <span class="muted">Rencontre entre franchisés</span>
-  </div>
-
-  <div class="step" v-click>
-    <div class="time">12:30</div>
-    <span class="ico">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M4 9.5h11.5v5.2A4.3 4.3 0 0 1 11.2 19H8.3A4.3 4.3 0 0 1 4 14.7z"/>
-        <path d="M15.5 11h1.7a2.4 2.4 0 0 1 0 4.8h-1.7"/>
-        <path d="M7.3 3.4c-.7.9-.7 1.9 0 2.8M11.6 3.4c-.7.9-.7 1.9 0 2.8"/>
-      </svg>
-    </span>
-    <strong>Pause</strong>
-    <span class="muted">Repas collectif + photos</span>
-  </div>
-
-  <div class="step" v-click>
-    <div class="time">14:00</div>
-    <span class="ico">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="12" cy="12" r="8.4"/>
-        <circle cx="12" cy="12" r="4.9"/>
-        <circle cx="12" cy="12" r="1.5"/>
-      </svg>
-    </span>
-    <strong>Vision</strong>
-    <span class="muted">Objectifs &amp; structuration</span>
-  </div>
-
-  <div class="step" v-click>
-    <div class="time">18:00</div>
-    <span class="ico">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M6.6 3.5h10.8l-1.15 6.4a4.45 4.45 0 0 1-8.5 0z"/>
-        <path d="M12 14.4v5.1M8.6 20.5h6.8"/>
-      </svg>
-    </span>
-    <strong>Convivial</strong>
-    <span class="muted">Apéro pétanque</span>
-  </div>
-
+<div class="timeline mt-10">
+  <div class="step" v-click><div class="time">09:00</div><strong>Accueil</strong><br><span class="muted">Arrivée & petit-déjeuner</span></div>
+  <div class="step" v-click><div class="time">10:00</div><strong>Partage</strong><br><span class="muted">Rencontre entre franchisés</span></div>
+  <div class="step" v-click><div class="time">12:30</div><strong>Pause</strong><br><span class="muted">Repas collectif + photos individuelles et groupe</span></div>
+  <div class="step" v-click><div class="time">14:00</div><strong>Vision</strong><br><span class="muted">Objectifs & structuration</span></div>
+  <div class="step" v-click><div class="time">18:00</div><strong>Convivial</strong><br><span class="muted">Apéro pétanque</span></div>
 </div>
 
 <!--
@@ -243,7 +77,21 @@ Notes speaker : ne pas lire le programme. L'utiliser comme promesse de rythme : 
 -->
 
 ---
+layout: image
+---
+<img class="photo-cover" src="/assets/reunion-rentree/reunion-rentree-v20260908-13-formation-aziz-1.jpg" />
+<div class="photo-overlay"></div>
+<div class="photo-title">
+  <div class="kicker">Énergie réseau</div>
+  <h1>Se retrouver pour repartir alignés.</h1>
+  <div class="subtitle mt-6">Une respiration visuelle pour installer le collectif avant d’entrer dans les sujets de fond.</div>
+</div>
 
+<!--
+Notes speaker : faire le lien avec la dynamique humaine de la journée : anciens, nouveaux, échanges et qualité des relations.
+-->
+
+---
 <div class="kicker">Annonce réseau</div>
 
 ## Une étape importante à Caen
@@ -266,37 +114,41 @@ Notes speaker : annoncer simplement le passage de relais à Caen, puis expliquer
 -->
 
 ---
-
 <div class="kicker">Questions d'ouverture</div>
 
 ## Avant de parler stratégie : le terrain
 
-<div class="grid-3 mt-8">
-  <div class="metric" v-click><div class="num">1</div><div class="label">Votre vision de l’entrepreneuriat</div></div>
-  <div class="metric" v-click><div class="num">2</div><div class="label">Ce qui fonctionne aujourd’hui</div></div>
-  <div class="metric" v-click><div class="num">3</div><div class="label">Le point de friction principal</div></div>
+<div class="grid-5 opening-grid mt-8">
+  <div class="metric opening-card" v-click><div class="num">1</div><div class="label">Présentation et parcours</div></div>
+  <div class="metric opening-card" v-click><div class="num">2</div><div class="label">Apprendre quelque chose sur vous</div></div>
+  <div class="metric opening-card" v-click><div class="num">3</div><div class="label">Vision de l'entrepreneuriat</div></div>
+  <div class="metric opening-card" v-click><div class="num">4</div><div class="label">Point de friction</div></div>
+  <div class="metric opening-card" v-click><div class="num">5</div><div class="label">Point fort</div></div>
 </div>
 
 <!--
-Notes speaker : provoquer des échanges concrets. Éviter la formulation brute "pain point" à l'écran ; la garder en langage parlé si adapté.
+Notes speaker : provoquer des échanges concrets et équilibrés : qui êtes-vous, ce qui vous porte, ce qui frotte, ce qui marche. Garder le rythme pour que chacun puisse s'exprimer.
 -->
 
 ---
-layout: section
+class: cover diagnosis-cover
 ---
+<div class="kicker">Diagnostic réseau</div>
 
-<div class="section-tag">02 — Diagnostic réseau</div>
-
-# Où en est RITMODiag ?
+# Où en est RITMODiag?
 
 <div class="subtitle mt-6">Les bases sont posées. L’enjeu : rendre le réseau plus lisible, homogène et duplicable.</div>
 
+<div class="mt-10 flex items-center gap-5">
+  <img class="logo" src="/assets/drive/logos/logo-ritmodiag.svg" />
+  <div class="muted">Un point d'étape lucide pour aligner la suite.</div>
+</div>
+
 <!--
-Notes speaker : ne pas dramatiser. Positionner cette partie comme un diagnostic lucide : il y a des forces réelles et des points à muscler.
+Notes speaker : reprendre l'énergie de la couverture : ce n'est pas un constat froid, c'est un point de départ commun. Valoriser les acquis avant d'ouvrir les sujets à structurer.
 -->
 
 ---
-
 <div class="kicker">Forces actuelles</div>
 
 ## Une base solide
@@ -315,7 +167,6 @@ Notes speaker : valoriser sans surcharger. Faire sentir que la suite ne part pas
 -->
 
 ---
-
 <div class="kicker">À renforcer</div>
 
 ## Ce qui doit devenir systématique
@@ -342,7 +193,6 @@ Notes speaker : expliquer que l'objectif n'est pas d'enlever l'autonomie, mais d
 ---
 layout: section
 ---
-
 <div class="section-tag">03 — Ambition 2026</div>
 
 # Devenir un réseau de référence
@@ -354,24 +204,6 @@ Notes speaker : formuler l'ambition en positif. Ne pas promettre uniquement de l
 -->
 
 ---
-
-<div class="kicker">Repères chiffrés</div>
-
-## Les chiffres qui donnent le cap
-
-<div class="grid-4 mt-8">
-  <div class="metric" v-click><div class="num">15</div><div class="label">agences en France</div></div>
-  <div class="metric" v-click><div class="num">+15</div><div class="label">nouveaux franchisés visés</div></div>
-  <div class="metric" v-click><div class="num">100k€</div><div class="label">CA HT minimum / agence</div></div>
-  <div class="metric" v-click><div class="num">110k€</div><div class="label">moyenne réseau visée</div></div>
-</div>
-
-<!--
-Notes speaker : préciser que les chiffres ne sont pas des slogans mais des repères de pilotage. Ils doivent orienter les routines commerciales et les choix d'accompagnement.
--->
-
----
-
 <div class="kicker">Zones prioritaires</div>
 
 ## Accélérer là où le potentiel est fort
@@ -398,7 +230,6 @@ Notes speaker : le développement ne doit pas être perçu comme une dilution. C
 ---
 layout: section
 ---
-
 <div class="section-tag">04 — Le réseau aujourd'hui</div>
 
 # 15 agences, une même trajectoire
@@ -410,53 +241,6 @@ Notes speaker : transition vers une slide réseau explicite, importante pour les
 -->
 
 ---
-
-<div class="kicker">Cartographie réseau</div>
-
-## Les agences RITMODiag en France
-
-<div class="france-map mt-5">
-  <div class="map-canvas">
-  <svg viewBox="0 0 360 470" aria-label="Carte stylisée de la France">
-    <path d="M155 18 L238 38 L308 96 L321 178 L288 250 L303 326 L249 414 L181 451 L103 423 L74 352 L30 312 L46 238 L23 164 L83 105 Z" fill="#f8fcfa" stroke="#56a681" stroke-width="5"/>
-    <path d="M84 105 L141 138 L204 126 L266 165 M47 238 L122 246 L192 226 L288 250 M74 352 L143 318 L221 338 L249 414" fill="none" stroke="rgba(86,166,129,.18)" stroke-width="2"/>
-  </svg>
-  <span class="map-point active" style="left:16%;top:29%">Morlaix</span>
-  <span class="map-point new" style="left:25%;top:35%">Saint-Malo</span>
-  <span class="map-point new physical" style="left:37%;top:23%">Cherbourg</span>
-  <span class="map-point active physical" style="left:30%;top:41%">Saint-Lô</span>
-  <span class="map-point active" style="left:33%;top:48%">Vire / Sud Manche</span>
-  <span class="map-point active physical" style="left:44%;top:35%">Caen</span>
-  <span class="map-point new" style="left:50%;top:43%">Deauville / Lisieux</span>
-  <span class="map-point active" style="left:53%;top:30%">Le Havre</span>
-  <span class="map-point new" style="left:60%;top:52%">Évreux</span>
-  <span class="map-point new" style="left:63%;top:19%">Arras</span>
-  <span class="map-point new" style="left:50%;top:59%">Chartres</span>
-  <span class="map-point new" style="left:33%;top:56%">Alençon</span>
-  <span class="map-point active" style="left:30%;top:66%">Angers</span>
-  <span class="map-point active" style="left:48%;top:74%">Vierzon</span>
-  <span class="map-point active" style="left:76%;top:40%">Strasbourg</span>
-  </div>
-  <div class="map-panel rd-card">
-    <h3>15 agences</h3>
-    <p class="muted mt-3">Une implantation concentrée dans le Grand Ouest, enrichie par des relais dans le Nord, le Centre et l’Est.</p>
-    <div class="grid-3 mt-5">
-      <div class="metric"><div class="num">8</div><div class="label">déjà en activité</div></div>
-      <div class="metric"><div class="num">7</div><div class="label">nouvelles agences</div></div>
-      <div class="metric"><div class="num">3</div><div class="label">agences physiques</div></div>
-    </div>
-  </div>
-  <div class="map-legend"><span class="pill active">Actives</span><span class="pill new">Nouvelles</span><span class="pill physical">Physiques</span></div>
-</div>
-
-<div class="note-hint mt-2">Carte volontairement stylisée : l’objectif est la localisation visuelle du réseau, pas la précision géographique au kilomètre.</div>
-
-<!--
-Notes speaker : présenter les agences comme une force collective. Mentionner explicitement les agences physiques : Caen, Saint-Lô, Cherbourg. Accueillir les nouveaux en les intégrant à une histoire déjà lancée.
--->
-
----
-
 <div class="kicker">Grille réseau</div>
 
 ## Une lecture simple des statuts
@@ -472,7 +256,6 @@ Notes speaker : utiliser cette grille pour clarifier les statuts sans rallonger 
 -->
 
 ---
-
 <div class="kicker">Message réseau</div>
 
 ## Indépendants au quotidien, alignés sur l’essentiel
@@ -489,7 +272,6 @@ Notes speaker : rappeler que chaque franchisé conserve son autonomie entreprene
 ---
 layout: section
 ---
-
 <div class="section-tag">05 — Les 4 piliers</div>
 
 # Ce qui rend la franchise forte
@@ -501,7 +283,6 @@ Notes speaker : introduire les quatre piliers comme une grille simple qui revien
 -->
 
 ---
-
 <div class="kicker">Pilier 1</div>
 
 ## Une marque forte
@@ -511,7 +292,7 @@ Notes speaker : introduire les quatre piliers comme une grille simple qui revien
     <div class="quote">Rassurer. Identifier. Donner confiance.</div>
     <p class="subtitle mt-6">Chaque interaction locale nourrit la réputation nationale.</p>
   </div>
-  <div class="photo-frame h-80"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-20-capture-de-la-fiche-google-de-caen.png" /></div>
+  <div class="photo-frame photo-contain h-80"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-20-capture-de-la-fiche-google-de-caen.png" /></div>
 </div>
 
 <!--
@@ -519,24 +300,27 @@ Notes speaker : parler attitude, qualité de service, présence locale. La marqu
 -->
 
 ---
-
 <div class="kicker">Pilier 2</div>
 
 ## Des méthodes claires
 
-<div class="grid-4 mt-8">
-  <div class="card" v-click><h3>Prospection</h3><p class="muted">Prescripteurs</p></div>
-  <div class="card" v-click><h3>Réactivité</h3><p class="muted">Leads entrants</p></div>
-  <div class="card" v-click><h3>Relance</h3><p class="muted">Devis & suivi</p></div>
-  <div class="card" v-click><h3>Qualité</h3><p class="muted">Clients & rapports</p></div>
+<div class="grid-2 mt-8 items-center">
+  <div class="grid-2 method-cards">
+    <div class="card" v-click><h3>Prospection</h3><p class="muted">Prescripteurs</p></div>
+    <div class="card" v-click><h3>Réactivité</h3><p class="muted">Leads entrants</p></div>
+    <div class="card" v-click><h3>Relance</h3><p class="muted">Devis & suivi</p></div>
+    <div class="card" v-click><h3>Qualité</h3><p class="muted">Clients & rapports</p></div>
+  </div>
+  <div class="photo-frame photo-contain h-96 immersion-side" v-click>
+    <img src="/assets/drive/immersion-alexis-selection.jpg" alt="Photo d'immersion terrain sélectionnée depuis Google Drive" />
+  </div>
 </div>
 
 <!--
-Notes speaker : les process doivent être simples et applicables. Leur rôle est de gagner du temps et de ne pas laisser chacun avancer seul.
+Notes speaker : les process doivent être simples et applicables. La photo rappelle que la méthode se transmet sur le terrain, pas seulement dans des supports.
 -->
 
 ---
-
 <div class="kicker">Pilier 3</div>
 
 ## Un accompagnement concret
@@ -552,7 +336,6 @@ Notes speaker : l'accompagnement doit être utile, pratique et directement appli
 -->
 
 ---
-
 <div class="kicker">Pilier 4</div>
 
 ## Une dynamique collective
@@ -568,7 +351,6 @@ Notes speaker : insister sur la responsabilité collective. Le réseau vit par l
 -->
 
 ---
-
 <div class="kicker">Rôle attendu</div>
 
 ## Ce que chacun porte
@@ -593,7 +375,6 @@ Notes speaker : ne pas transformer la slide en liste de contraintes ; parler d'u
 -->
 
 ---
-
 <div class="kicker">Valeurs</div>
 
 ## Ce qui doit se voir dans nos actes
@@ -613,7 +394,6 @@ Notes speaker : relier aux clients, aux délais, aux rapports, aux échanges ent
 -->
 
 ---
-
 <div class="kicker">Tendances terrain</div>
 
 ## Les attentes montent
@@ -629,7 +409,6 @@ Notes speaker : les prescripteurs veulent des partenaires sérieux, disponibles 
 -->
 
 ---
-
 <div class="kicker">Méthode commerciale</div>
 
 ## 6 leviers simples
@@ -648,7 +427,6 @@ Notes speaker : détailler oralement. Garder la slide en macro-leviers pour évi
 -->
 
 ---
-
 <div class="kicker">Visibilité locale</div>
 
 ## Cohérence nationale, impact local
@@ -673,7 +451,6 @@ Notes speaker : le client doit comprendre vite qui nous sommes, ce que nous fais
 ---
 layout: fact
 ---
-
 <div class="kicker">Phrase à marteler</div>
 
 # On ne pilote pas une agence uniquement au ressenti.
@@ -685,7 +462,6 @@ Notes speaker : installer la logique de pilotage sans culpabiliser. Un indicateu
 -->
 
 ---
-
 <div class="kicker">Indicateurs</div>
 
 ## Les bons chiffres, simplement
@@ -706,7 +482,6 @@ Notes speaker : ne pas tout détailler. Proposer de choisir quelques indicateurs
 -->
 
 ---
-
 <div class="kicker">Trois axes</div>
 
 ## Consolider • Ouvrir • Renforcer
@@ -724,7 +499,6 @@ Notes speaker : expliciter la logique réseau : chaque nouvelle implantation doi
 ---
 layout: section
 ---
-
 <div class="section-tag">10 — Ce que le franchiseur met en place</div>
 
 # Plus de cadre, plus d’outils, plus de rythme
@@ -760,66 +534,31 @@ Notes speaker : reformuler l'image interne maladroite du PDF en message premium.
 -->
 
 ---
+<div class="kicker">Votre rôle</div>
 
-<div class="kicker">Engagement franchiseur</div>
-
-## 6 chantiers prioritaires
-
-<div class="grid-3 mt-8">
-  <div class="card" v-click><h3>Accompagnement dédié</h3><p class="muted">suivi, cadrage, disponibilité</p></div>
-  <div class="card" v-click><h3>Accords cadres</h3><p class="muted">groupes immobiliers, bailleurs, partenaires</p></div>
-  <div class="card" v-click><h3>Marketing continu</h3><p class="muted">leads, site, image nationale</p></div>
-  <div class="card" v-click><h3>Communication</h3><p class="muted">digital, opportunités média, cohérence</p></div>
-  <div class="card" v-click><h3>Catalogue</h3><p class="muted">produits, qualité, force d'achat</p></div>
-  <div class="card" v-click><h3>Veille marché</h3><p class="muted">innovation, réglementation, adaptation</p></div>
-</div>
-
-<!--
-Notes speaker : détailler oralement les mesures du PDF. Mettre l'accent sur l'application terrain et la régularité.
--->
-
----
-
-<div class="kicker">Animation réseau</div>
-
-## Le cadre que nous voulons installer
+## Votre Rôle
 
 <div class="grid-2 mt-8">
   <ul class="clean rd-card">
-    <li v-click>Animation plus régulière</li>
-    <li v-click>Points de suivi individuels</li>
-    <li v-click>Formations ciblées</li>
-    <li v-click>Supports commerciaux communs</li>
+    <li v-click>Participation active à la vie du réseau</li>
+    <li v-click>Application des méthodes communes</li>
+    <li v-click>Qualité de service constante avec vos clients</li>
   </ul>
   <ul class="clean rd-card">
-    <li v-click>Outils de pilotage</li>
-    <li v-click>Méthodes de prospection</li>
-    <li v-click>Partage des bonnes pratiques</li>
-    <li v-click>Accompagnement des nouveaux franchisés</li>
+    <li v-click>Réactivité et professionnalisme avec vos clients</li>
+    <li v-click>Retours terrain réguliers</li>
+    <li v-click>Volonté de progresser</li>
   </ul>
 </div>
 
+<div class="quote mt-8" v-click>Faire vivre la promesse RITMODiag, chaque jour, sur le terrain.</div>
+
 <!--
-Notes speaker : message clé : le franchiseur apporte le cadre, les outils et la méthode ; les franchisés les appliquent, les font vivre et remontent ce qui marche ou bloque.
+Notes speaker : insister sur le rôle actif des franchisés : le réseau n'existe pas uniquement par le franchiseur. Chaque agence porte la qualité, la méthode et les retours terrain qui permettent de progresser collectivement.
 -->
 
 ---
-layout: section
----
-
-<div class="section-tag">11 — Immersion Formation</div>
-
-# Apprendre ensemble, sur le terrain
-
-<div class="subtitle mt-6">Des photos et des formats courts pour rendre la transmission plus concrète.</div>
-
-<!--
-Notes speaker : introduire l'immersion formation comme preuve de concret : on apprend mieux quand les gestes et situations sont visibles.
--->
-
----
-
-<div class="kicker">Immersion Formation</div>
+<div class="kicker">Transmission terrain</div>
 
 ## Des formats vivants et applicables
 
@@ -841,7 +580,6 @@ Notes speaker : utiliser cette slide comme respiration visuelle pour rendre l'im
 -->
 
 ---
-
 <div class="kicker">Respiration visuelle</div>
 
 ## Immersion en images
@@ -857,7 +595,6 @@ Notes speaker : laisser respirer la slide. Une phrase suffit : la méthode se tr
 -->
 
 ---
-
 <div class="kicker">Immersion Formation</div>
 
 ## Du savoir-faire au réflexe réseau
@@ -873,89 +610,6 @@ Notes speaker : positionner la formation comme outil de duplication de qualité,
 -->
 
 ---
-layout: section
----
-
-<div class="section-tag">12 — Priorités de rentrée</div>
-
-# 5 priorités, un rythme commun
-
-<div class="subtitle mt-6">Des actions simples, mesurables, répétées.</div>
-
-<!--
-Notes speaker : annoncer les priorités sans les transformer en catalogue interminable.
--->
-
----
-
-<div class="kicker">Rentrée 2026</div>
-
-## Les 5 priorités opérationnelles
-
-<div class="grid-5 mt-8" style="display:grid;grid-template-columns:repeat(5,1fr);gap:.75rem">
-  <div class="metric" v-click><div class="num">01</div><div class="label">Relance commerciale</div></div>
-  <div class="metric" v-click><div class="num">02</div><div class="label">Suivi des leads</div></div>
-  <div class="metric" v-click><div class="num">03</div><div class="label">Visibilité locale</div></div>
-  <div class="metric" v-click><div class="num">04</div><div class="label">Qualité homogène</div></div>
-  <div class="metric" v-click><div class="num">05</div><div class="label">Pilotage</div></div>
-</div>
-
-<!--
-Notes speaker : pour chaque priorité, donner un exemple concret et une attente minimale. Garder le détail en discussion ou atelier.
--->
-
----
-
-<div class="kicker">Priorité 1</div>
-
-## Relance commerciale
-
-<div class="quote mt-8">Réactiver les prescripteurs et installer une routine.</div>
-
-<div class="agency-list mt-8"><span class="pill">contacts à potentiel</span><span class="pill">visites régulières</span><span class="pill">messages simples</span><span class="pill">suivi dans le temps</span></div>
-
-<!--
-Notes speaker : reprendre contact avec les prescripteurs, identifier les partenaires à potentiel et éviter les actions ponctuelles sans suivi.
--->
-
----
-
-<div class="kicker">Priorité 2</div>
-
-## Suivi des leads
-
-<div class="grid-3 mt-8">
-  <div class="metric" v-click><div class="num">Rappeler</div><div class="label">vite</div></div>
-  <div class="metric" v-click><div class="num">Relancer</div><div class="label">proprement</div></div>
-  <div class="metric" v-click><div class="num">Mesurer</div><div class="label">la transformation</div></div>
-</div>
-
-<!--
-Notes speaker : le lead non suivi est une fuite directe de chiffre d'affaires. Rester pratique.
--->
-
----
-
-<div class="kicker">Priorité 3</div>
-
-## Visibilité locale
-
-<div class="grid-2 mt-8 items-center">
-  <div class="quote">Être trouvé, compris, choisi.</div>
-  <ul class="clean rd-card">
-    <li v-click>Fiche Google Business Profile</li>
-    <li v-click>Avis clients</li>
-    <li v-click>Communication locale</li>
-    <li v-click>Discours homogène</li>
-  </ul>
-</div>
-
-<!--
-Notes speaker : simple et très concret. La visibilité locale est un levier immédiat.
--->
-
----
-
 <div class="kicker">Priorités 4 & 5</div>
 
 ## Qualité + Pilotage
@@ -970,21 +624,6 @@ Notes speaker : qualité et pilotage se renforcent : la qualité sécurise la ma
 -->
 
 ---
-layout: section
----
-
-<div class="section-tag">13 — Temps d'échange</div>
-
-# Faire émerger du concret
-
-<div class="subtitle mt-6">Pas seulement des constats : des décisions, des besoins, des bonnes pratiques à partager.</div>
-
-<!--
-Notes speaker : ouvrir l'échange. Prévenir que l'objectif est d'aboutir à des actions concrètes.
--->
-
----
-
 <div class="kicker">Discussion franchisés</div>
 
 ## Questions fortes
@@ -1007,7 +646,6 @@ Notes speaker : faciliter l'échange. Noter les thèmes qui reviennent. Priorise
 -->
 
 ---
-
 <div class="kicker">Checklist action</div>
 
 ## Ce qu’on enclenche dès la rentrée
@@ -1032,7 +670,6 @@ Notes speaker : transformer les échanges en actions. Faire ressortir les engage
 ---
 layout: fact
 ---
-
 <div class="kicker">Conclusion</div>
 
 # Notre réussite dépendra de notre capacité à avancer ensemble.
@@ -1044,7 +681,6 @@ Notes speaker : synthèse finale. Reprendre la vision, remercier, ouvrir vers la
 -->
 
 ---
-
 <div class="kicker">Clôture</div>
 
 ## Merci pour votre présence et votre engagement
