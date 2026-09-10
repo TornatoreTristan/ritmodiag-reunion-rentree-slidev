@@ -22,3 +22,15 @@ Source exclusive autorisée : `Marketing > Projets > Réunion de rentrée`.
 - `assets/reunion-rentree/reunion-rentree-v20260908-18-p1300495.jpg` — Drive `P1300495.JPG` — ID `1Wj95rgaK1kceoxxbcuHP8axgHtvpqiQX` — source `Marketing > Projets > Réunion de rentrée/Ressources Photographiques/P1300495.JPG`
 - `assets/reunion-rentree/reunion-rentree-v20260908-19-p1300488.jpg` — Drive `P1300488.JPG` — ID `1F5B8OUXZQZ5hOmADRZoSajBUSr0YT4-U` — source `Marketing > Projets > Réunion de rentrée/Ressources Photographiques/P1300488.JPG`
 - `assets/reunion-rentree/reunion-rentree-v20260908-20-capture-de-la-fiche-google-de-caen.png` — Drive `Capture de la fiche Google de Caen.png` — ID `1mqlFLvHpoKWxDiPxK6CrGoqQx43Kk5zi` — source `Marketing > Projets > Réunion de rentrée/Fiche Google : GMB/Capture de la fiche Google de Caen.png`
+
+## Dérivés optimisés pour les intercalaires
+
+Recadrages/redimensionnements (1600 px sur le grand côté, JPEG qualité 72) produits
+localement à partir des fichiers autorisés ci-dessus — aucune nouvelle source externe.
+
+- `assets/reunion-rentree/role-franchise.jpg` — dérivé de `reunion-rentree-v20260908-14-formation-aziz-2.jpg`
+- `assets/reunion-rentree/valeurs-reseau.jpg` — dérivé de `reunion-rentree-v20260908-15-formation-aziz-22.jpg`
+- `assets/reunion-rentree/enjeux-marche.jpg` — dérivé de `reunion-rentree-v20260908-17-formation-aziz-60.jpg`
+- `assets/reunion-rentree/strategie-commerciale.jpg` — dérivé de `reunion-rentree-v20260908-18-p1300495.jpg`
+- `assets/reunion-rentree/developpement-reseau.jpg` — dérivé de `reunion-rentree-v20260908-16-formation-aziz-56.jpg`
+- `assets/reunion-rentree/mesures-concretes.jpg` — dérivé de `reunion-rentree-v20260908-19-p1300488.jpg`

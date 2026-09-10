@@ -575,6 +575,26 @@ Notes speaker : insister sur la responsabilité collective. Le réseau vit par l
 -->
 
 ---
+layout: image
+---
+
+<img class="photo-cover" src="/assets/reunion-rentree/role-franchise.jpg" style="object-position: 50% 22%" alt="Deux franchisés RITMODiag au travail sur un même dossier" />
+<div class="photo-overlay"></div>
+<div class="photo-content">
+
+<div class="kicker">05 — Le rôle du franchisé</div>
+
+<h1>Entrepreneur local, ambassadeur d’une marque commune</h1>
+
+<div class="subtitle mt-4">Vous accompagner au quotidien pour vous faire grandir.</div>
+
+</div>
+
+<!--
+Notes speaker : introduire le rôle non comme une contrainte, mais comme le cadre qui protège la marque et fait performer chaque agence.
+-->
+
+---
 
 <div class="kicker">Rôle attendu</div>
 
@@ -593,6 +613,26 @@ Notes speaker : insister sur la responsabilité collective. Le réseau vit par l
 
 <!--
 Notes speaker : ne pas transformer la slide en liste de contraintes ; parler d'un cadre qui protège la marque et aide chacun à performer.
+-->
+
+---
+layout: image
+---
+
+<img class="photo-cover" src="/assets/reunion-rentree/valeurs-reseau.jpg" style="object-position: 55% 45%" alt="Technicien équipé réalisant un prélèvement sous plafond" />
+<div class="photo-overlay"></div>
+<div class="photo-content">
+
+<div class="kicker">06 — Les valeurs du réseau</div>
+
+<h1>Cinq valeurs, une même exigence</h1>
+
+<div class="subtitle mt-4">Elles ne se déclarent pas : elles se remarquent dans le service rendu.</div>
+
+</div>
+
+<!--
+Notes speaker : enchaîner vite : les valeurs sont la traduction quotidienne du rôle qu’on vient de décrire.
 -->
 
 ---
@@ -641,37 +681,62 @@ Notes speaker : relier aux clients, aux délais, aux rapports, aux échanges ent
 -->
 
 ---
+layout: image
+---
 
-<div class="kicker">Tendances terrain</div>
+<img class="photo-cover" src="/assets/reunion-rentree/enjeux-marche.jpg" style="object-position: 58% 40%" alt="Ouverture d’un coffret technique en façade" />
+<div class="photo-overlay"></div>
+<div class="photo-content">
 
-## Les attentes montent
+<div class="kicker">07 — Les enjeux du marché</div>
 
-<div class="accent-grid mt-8">
-  <div class="accent-card c-vert">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="13.4" r="7.6"/><path d="M12 9.4v4l2.5 1.5"/><path d="M9.6 2.9h4.8"/><path d="m18.3 6.2 1.5-1.5"/>
-    </svg></span>
-    <h3>Vite</h3>
-    <p>Réactivité au premier contact</p>
-  </div>
-  <div class="accent-card c-jaune">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M2.4 12S6 5.6 12 5.6 21.6 12 21.6 12 18 18.4 12 18.4 2.4 12 2.4 12z"/><circle cx="12" cy="12" r="3"/>
-    </svg></span>
-    <h3>Clair</h3>
-    <p>Prix, pédagogie, discours</p>
-  </div>
-  <div class="accent-card c-rouge">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 3.1 4.9 6v5.4c0 4.3 3 8.3 7.1 9.5 4.1-1.2 7.1-5.2 7.1-9.5V6z"/><path d="m8.9 11.9 2.2 2.2 4-4.4"/>
-    </svg></span>
-    <h3>Fiable</h3>
-    <p>Délais, livrables, suivi</p>
-  </div>
+<h1>Un marché porteur, mais plus exigeant</h1>
+
+<div class="subtitle mt-4">Ce qui bouge en 2026/2027, et ce que cela change pour nos agences.</div>
+
 </div>
 
 <!--
-Notes speaker : les prescripteurs veulent des partenaires sérieux, disponibles et réguliers. Les clients sont plus informés et plus exigeants.
+Notes speaker : sortir du discours interne pour regarder le marché. Poser le décor avant d’annoncer la stratégie commerciale.
+-->
+
+---
+
+<div class="kicker">Marché</div>
+
+## Les grandes tendances 2026/2027
+
+<ul class="rows mt-8">
+  <li v-click>Croissance annuelle à deux chiffres</li>
+  <li v-click>Une concurrence locale plus forte</li>
+  <li v-click>Importance croissante du DPE</li>
+  <li v-click>Le besoin de pédagogie client est de plus en plus fort</li>
+  <li v-click>Modifications régulières du calcul</li>
+  <li v-click>Les agences immobilières, syndics et notaires ont un poids plus important sur le marché français</li>
+</ul>
+
+<!--
+Notes speaker : un marché qui grossit mais qui se durcit. La croissance ne suffit pas : c’est la qualité d’exécution qui fera la différence sur chaque secteur.
+-->
+
+---
+layout: image
+---
+
+<img class="photo-cover" src="/assets/reunion-rentree/strategie-commerciale.jpg" style="object-position: 52% 30%" alt="Diagnostiqueur saisissant son relevé sur tablette" />
+<div class="photo-overlay"></div>
+<div class="photo-content">
+
+<div class="kicker">08 — La stratégie commerciale 2026/2027</div>
+
+<h1>La réponse commerciale qui en découle</h1>
+
+<div class="subtitle mt-4">Des leviers simples, appliqués partout, toute l’année.</div>
+
+</div>
+
+<!--
+Notes speaker : faire le lien explicite : chaque levier répond à une tendance de la slide précédente.
 -->
 
 ---
@@ -752,7 +817,7 @@ Notes speaker : le client doit comprendre vite qui nous sommes, ce que nous fais
 layout: fact
 ---
 
-<div class="kicker">Phrase à marteler</div>
+<div class="kicker">À retenir</div>
 
 # On ne pilote pas une agence uniquement au ressenti.
 
@@ -832,6 +897,26 @@ Notes speaker : ne pas tout détailler. Proposer de choisir quelques indicateurs
 -->
 
 ---
+layout: image
+---
+
+<img class="photo-cover" src="/assets/reunion-rentree/developpement-reseau.jpg" style="object-position: 58% 45%" alt="Inspection d’un compteur à la caméra endoscopique" />
+<div class="photo-overlay"></div>
+<div class="photo-content">
+
+<div class="kicker">09 — La stratégie de développement du réseau 2026/2027</div>
+
+<h1>Grandir sans diluer la qualité</h1>
+
+<div class="subtitle mt-4">Consolider l’existant, ouvrir les bonnes zones, renforcer la marque.</div>
+
+</div>
+
+<!--
+Notes speaker : rassurer les franchisés en place : ouvrir de nouvelles zones sert d’abord la crédibilité de chacun.
+-->
+
+---
 
 <div class="kicker">Trois axes</div>
 
@@ -866,10 +951,30 @@ Notes speaker : expliciter la logique réseau : chaque nouvelle implantation doi
 -->
 
 ---
+layout: image
+---
+
+<img class="photo-cover" src="/assets/reunion-rentree/mesures-concretes.jpg" style="object-position: 52% 58%" alt="Diagnostiqueur annotant son rapport sur tablette" />
+<div class="photo-overlay"></div>
+<div class="photo-content">
+
+<div class="kicker">10 — Les 7 mesures concrètes</div>
+
+<h1>Ce que le franchiseur met en place</h1>
+
+<div class="subtitle mt-4">Sept engagements opérationnels pour l’année qui vient.</div>
+
+</div>
+
+<!--
+Notes speaker : annoncer les sept mesures d’un bloc, puis les dérouler une par une. C’est la partie la plus attendue.
+-->
+
+---
 layout: section
 ---
 
-<div class="section-tag">05 — Ce que le franchiseur met en place</div>
+<div class="section-tag">Mesure 1 — Accompagnement dédié</div>
 
 # Plus de cadre, plus d’outils, plus de rythme
 
@@ -913,6 +1018,164 @@ Notes speaker : reformuler l'image interne maladroite du PDF en message premium.
 
 ---
 
+<div class="kicker">Mesure 2</div>
+
+## Accords-cadre &amp; partenariats
+
+<div class="grid-2 mt-8">
+  <div class="accent-card c-vert">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.4 8.6h17.2v10.2a1.6 1.6 0 0 1-1.6 1.6H5a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M8.7 8.6V6.1a1.6 1.6 0 0 1 1.6-1.6h3.4a1.6 1.6 0 0 1 1.6 1.6v2.5"/><path d="M3.4 13.2h17.2"/><path d="M10.6 13.2h2.8"/></svg></span>
+    <h3>Accords-cadre</h3>
+    <p>Groupes immobiliers, bailleurs et groupes français dont les besoins sont spécifiques : RAAT, RAAD, DPE.</p>
+  </div>
+  <div class="accent-card c-jaune">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6.2" cy="12" r="2.6"/><circle cx="17.6" cy="6.4" r="2.6"/><circle cx="17.6" cy="17.6" r="2.6"/><path d="M8.6 10.9 15.2 7.6M8.6 13.1l6.6 3.3"/></svg></span>
+    <h3>Partenariats stratégiques</h3>
+    <p>Des acteurs clés de l’immobilier, pour continuer de faire rayonner la marque.</p>
+  </div>
+</div>
+
+<!--
+Notes speaker : des volumes négociés au national, redistribués localement. Préciser que rien ne se fait sans les franchisés concernés.
+-->
+
+---
+
+<div class="kicker">Mesure 3</div>
+
+## Amélioration continue du marketing
+
+<div class="accent-grid mt-8">
+  <div class="accent-card c-vert">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15.6 3.4h5v5"/><path d="m20.6 3.4-6.2 6.2"/><path d="M10.3 4.4 12 8.1l-2 1.8a11 11 0 0 0 4.1 4.1l1.8-2 3.7 1.7v3.3a2 2 0 0 1-2.2 2A16.4 16.4 0 0 1 3.1 8.6a2 2 0 0 1 2-2.2h3.3z"/></svg></span>
+    <h3>Leads</h3>
+    <p>Optimisation continue de la performance sur les leads.</p>
+  </div>
+  <div class="accent-card c-jaune">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.7" cy="10.7" r="7"/><path d="M3.9 10.7h13.6M10.7 3.7c1.8 2 2.8 4.4 2.8 7s-1 5-2.8 7c-1.8-2-2.8-4.4-2.8-7s1-5 2.8-7z"/><path d="m15.8 15.8 4.6 4.6"/></svg></span>
+    <h3>Site internet</h3>
+    <p>Optimisation du site, du SEO local et de la conversion.</p>
+  </div>
+  <div class="accent-card c-rouge">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.6 10.1v3.8a1.6 1.6 0 0 0 1.6 1.6h2.2l8.4 4.4V4.1L7.4 8.5H5.2a1.6 1.6 0 0 0-1.6 1.6z"/><path d="M19.4 9.3a3.6 3.6 0 0 1 0 5.4"/><path d="M7.4 15.5v3.4a1.4 1.4 0 0 0 2.7.4"/></svg></span>
+    <h3>Image nationale</h3>
+    <p>Rayonnement de la marque au national.</p>
+  </div>
+</div>
+
+<!--
+Notes speaker : le marketing du franchiseur alimente le local. Rappeler que la vitesse de rappel reste le premier facteur de transformation.
+-->
+
+---
+
+<div class="kicker">Mesure 4</div>
+
+## Continuité de la communication en place
+
+<div class="grid-2 mt-8">
+  <div class="accent-card c-vert">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13.4 2.9 5.2 13.6h5.3l-.9 7.5 8.2-10.7h-5.3z"/></svg></span>
+    <h3>Digital</h3>
+    <p>On poursuit la stratégie de communication déjà en place, centrée sur le digital.</p>
+  </div>
+  <div class="accent-card c-rouge">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.1"/><path d="M8.3 8.3a5.2 5.2 0 0 0 0 7.4"/><path d="M15.7 15.7a5.2 5.2 0 0 0 0-7.4"/><path d="M5.5 5.5a9.2 9.2 0 0 0 0 13"/><path d="M18.5 18.5a9.2 9.2 0 0 0 0-13"/></svg></span>
+    <h3>Développer d’autres canaux</h3>
+    <p>Nous continuons d’optimiser et de développer la notoriété sur d’autres canaux de communication.</p>
+  </div>
+</div>
+
+<!--
+Notes speaker : ne rien casser de ce qui fonctionne. Le digital reste le socle ; les autres canaux viennent l’élargir, sans promesse ferme à ce stade.
+-->
+
+---
+
+<div class="kicker">Mesure 5</div>
+
+## Structuration du catalogue
+
+<div class="grid-2 mt-8">
+  <div class="accent-card c-jaune">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.4 7.6h17.2l-1.7 10.2a2 2 0 0 1-2 1.6H7.1a2 2 0 0 1-2-1.6z"/><path d="M8.6 7.6 12 3.4l3.4 4.2"/><path d="M9.7 11.4v4.2M14.3 11.4v4.2"/></svg></span>
+    <h3>Une offre élargie</h3>
+    <p>Des produits de qualité toujours plus nombreux, disponibles via notre catalogue.</p>
+  </div>
+  <div class="accent-card c-vert">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11.2 3.4H4.9a1.5 1.5 0 0 0-1.5 1.5v6.3c0 .4.16.78.44 1.06l8.1 8.1a1.5 1.5 0 0 0 2.12 0l6.3-6.3a1.5 1.5 0 0 0 0-2.12l-8.1-8.1A1.5 1.5 0 0 0 11.2 3.4z"/><circle cx="8.1" cy="8.1" r="1.4"/></svg></span>
+    <h3>Les meilleurs prix</h3>
+    <p>Une façon simple de bénéficier des prix les plus avantageux du marché, grâce à notre force de frappe d’achat.</p>
+  </div>
+</div>
+
+<!--
+Notes speaker : argument très concret : le catalogue est un levier de marge immédiat pour chaque agence.
+-->
+
+---
+
+<div class="kicker">Mesure 6</div>
+
+## Veille régulière
+
+<div class="accent-grid mt-8">
+  <div class="accent-card c-vert">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.4 12S6 5.6 12 5.6 21.6 12 21.6 12 18 18.4 12 18.4 2.4 12 2.4 12z"/><circle cx="12" cy="12" r="3"/></svg></span>
+    <h3>Innovations</h3>
+    <p>Sourcer et comparer ce qui sort sur le marché.</p>
+  </div>
+  <div class="accent-card c-jaune">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7.4" y="7.4" width="9.2" height="9.2" rx="1.6"/><path d="M10 3.6v3.8M14 3.6v3.8M10 16.6v3.8M14 16.6v3.8M3.6 10h3.8M3.6 14h3.8M16.6 10h3.8M16.6 14h3.8"/></svg></span>
+    <h3>Technologies</h3>
+    <p>Suivre les nouveaux outils et matériels du métier.</p>
+  </div>
+  <div class="accent-card c-rouge">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.1 4.9 6v5.4c0 4.3 3 8.3 7.1 9.5 4.1-1.2 7.1-5.2 7.1-9.5V6z"/><path d="m8.9 11.9 2.2 2.2 4-4.4"/></svg></span>
+    <h3>Réglementation</h3>
+    <p>Anticiper les nouveautés réglementaires françaises.</p>
+  </div>
+</div>
+
+<p class="subtitle mt-8">Et vous en proposer une adaptation claire, applicable dans vos situations.</p>
+
+<!--
+Notes speaker : la veille n’a de valeur que traduite en actions : c’est le rôle du franchiseur de faire ce travail de tri.
+-->
+
+---
+
+<div class="kicker">Mesure 7</div>
+
+## Optimiser vos KPI
+
+<div class="grid-2 mt-8 items-center">
+  <div>
+    <div class="accent-grid" style="grid-template-columns: repeat(2, minmax(0, 1fr))">
+  <div class="accent-card c-vert">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.6 20.1h16.8"/><path d="M4.4 16.2 9 11.4l3.2 3 5.4-6.6"/><circle cx="12.2" cy="14.4" r="1.5"/></svg></span>
+    <h3>Uniformiser</h3>
+    <p>Des résultats mesurés de la même façon partout.</p>
+  </div>
+  <div class="accent-card c-jaune">
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7.6 3.9h8.8v4.6a4.4 4.4 0 0 1-8.8 0z"/><path d="M7.6 5.4H5.2a2.2 2.2 0 0 0 2.2 2.2M16.4 5.4h2.4a2.2 2.2 0 0 1-2.2 2.2"/><path d="M12 12.9v3.4"/><path d="M9 20.1h6l-.6-3.8H9.6z"/></svg></span>
+    <h3>Classer</h3>
+    <p>Un classement réseau, avec des prix et des récompenses.</p>
+  </div>
+    </div>
+  </div>
+  <div>
+    <div class="quote">La première récompense va, tout naturellement, à <span class="accent">Dov</span>.</div>
+    <p class="subtitle mt-5">Plus haut chiffre d’affaires du réseau sur l’année.</p>
+  </div>
+</div>
+
+<!--
+Notes speaker : annoncer la récompense de Dov comme un moment de reconnaissance, pas comme une comparaison. Le classement doit tirer vers le haut, pas mettre sous pression.
+-->
+
+---
+
 <div class="kicker">Votre rôle</div>
 
 ## Ce que le réseau attend de chaque agence
@@ -933,76 +1196,23 @@ Notes speaker : insister sur le rôle actif des franchisés : le réseau n'exist
 -->
 
 ---
+layout: image
+---
 
-<div class="kicker">Transmission terrain</div>
+<img class="photo-cover" src="/assets/reunion-rentree/terrain-echange.jpg" style="object-position: 50% 30%" alt="Deux collaborateurs RITMODiag concentrés sur un même écran" />
+<div class="photo-overlay"></div>
+<div class="photo-content">
 
-## Des formats vivants et applicables
+<div class="kicker">11 — En conclusion</div>
 
-<div class="grid-2 mt-8 items-center">
-  <div class="photo-frame h-80"><img src="/assets/reunion-rentree/reunion-rentree-v20260908-14-formation-aziz-2.jpg" /></div>
-  <ul class="rows one-col">
-    <li>Terrain réel</li>
-    <li>Gestes métier</li>
-    <li>Échanges entre franchisés</li>
-    <li>Transmission de méthode</li>
-  </ul>
+<h1>Ce qui commence maintenant</h1>
+
+<div class="subtitle mt-4">Des actions simples, un cap commun, un réseau qui avance ensemble.</div>
+
 </div>
 
 <!--
-Notes speaker : utiliser cette slide comme respiration visuelle pour rendre l'immersion concrète avant de revenir à la méthode.
--->
-
----
-
-<div class="kicker">Immersion Formation</div>
-
-## Du savoir-faire au réflexe réseau
-
-<div class="accent-grid mt-8">
-  <div class="accent-card c-vert">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M2.4 12S6 5.6 12 5.6 21.6 12 21.6 12 18 18.4 12 18.4 2.4 12 2.4 12z"/><circle cx="12" cy="12" r="3"/>
-    </svg></span>
-    <h3>Voir</h3>
-    <p>Observer les bonnes pratiques</p>
-  </div>
-  <div class="accent-card c-jaune">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M14.9 3.6a4.6 4.6 0 0 0-5.2 6.1L3.5 15.9a2 2 0 0 0 2.8 2.8l6.2-6.2a4.6 4.6 0 0 0 6.1-5.2l-2.9 2.9-2.7-.7-.7-2.7z"/>
-    </svg></span>
-    <h3>Faire</h3>
-    <p>Appliquer en situation</p>
-  </div>
-  <div class="accent-card c-rouge">
-    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="6.2" cy="12" r="2.6"/><circle cx="17.6" cy="6.4" r="2.6"/><circle cx="17.6" cy="17.6" r="2.6"/><path d="M8.6 10.9 15.2 7.6M8.6 13.1l6.6 3.3"/>
-    </svg></span>
-    <h3>Partager</h3>
-    <p>Capitaliser pour tout le réseau</p>
-  </div>
-</div>
-
-<!--
-Notes speaker : positionner la formation comme outil de duplication de qualité, pas comme simple obligation.
--->
-
----
-
-<div class="kicker">Discussion franchisés</div>
-
-## Questions fortes
-
-<ul class="rows mt-8">
-  <li>Qu’est-ce qui fonctionne vraiment aujourd’hui&nbsp;?</li>
-  <li>Quelles actions commerciales marchent le mieux&nbsp;?</li>
-  <li>Qu’est-ce qui bloque le plus souvent&nbsp;?</li>
-  <li>Quelles difficultés avec les prescripteurs&nbsp;?</li>
-  <li>Quels outils vous manquent&nbsp;?</li>
-  <li>Quelle bonne pratique partager au réseau&nbsp;?</li>
-</ul>
-
-<!--
-Notes speaker : faciliter l'échange. Noter les thèmes qui reviennent. Prioriser le concret.
+Notes speaker : baisser le rythme, poser la voix. On passe du plan au collectif.
 -->
 
 ---
@@ -1026,6 +1236,59 @@ Notes speaker : faciliter l'échange. Noter les thèmes qui reviennent. Priorise
 
 <!--
 Notes speaker : transformer les échanges en actions. Faire ressortir les engagements ou besoins prioritaires.
+-->
+
+---
+
+<div class="kicker">Discussion franchisés</div>
+
+## Questions fortes
+
+<ul class="rows mt-8">
+  <li>Qu’est-ce qui fonctionne vraiment aujourd’hui&nbsp;?</li>
+  <li>Quelles actions commerciales marchent le mieux&nbsp;?</li>
+  <li>Qu’est-ce qui bloque le plus souvent&nbsp;?</li>
+  <li>Quelles difficultés avec les prescripteurs&nbsp;?</li>
+  <li>Quels outils vous manquent&nbsp;?</li>
+  <li>Quelle bonne pratique partager au réseau&nbsp;?</li>
+</ul>
+
+<!--
+Notes speaker : faciliter l'échange. Noter les thèmes qui reviennent. Prioriser le concret.
+-->
+
+---
+
+<div class="split-list">
+<div>
+
+<div class="kicker">L’opportunité</div>
+
+## RITMODiag a une vraie opportunité
+
+<div class="quote mt-7">Construire un réseau plus structuré, plus visible et plus performant.</div>
+
+</div>
+
+<div>
+
+<p class="muted">Nous avons&nbsp;:</p>
+
+<ul class="rows one-col mt-3">
+  <li v-click>Une marque à faire grandir</li>
+  <li v-click>Un marché avec du potentiel</li>
+  <li v-click>Des franchisés engagés</li>
+  <li v-click>Des méthodes qui fonctionnent</li>
+  <li v-click>Une ambition commune</li>
+  <li v-click>Une dynamique réseau à développer</li>
+</ul>
+
+</div>
+
+</div>
+
+<!--
+Notes speaker : la slide de bascule finale : tout est réuni, il ne manque que l’exécution collective. Enchaîner directement sur la phrase de clôture.
 -->
 
 ---

@@ -974,6 +974,14 @@ ul.clean li::before {
 .photo-content .icon-item span { font-size: .76rem; line-height: 1.25; }
 .photo-content .kicker { color: #cfe3d7; }
 .photo-content .kicker::before { background: #cfe3d7; }
+
+/* Sous-titre pose sur une photo : le gris de --rd-muted ne tient pas sur
+   le voile sombre, et la largeur doit rester dans la zone assombrie. */
+.photo-content .subtitle {
+  color: rgba(255, 255, 255, .82);
+  font-size: 1rem;
+  max-width: 42ch;
+}
 .photo-content .icon-item svg { color: #fff; }
 .photo-content .icon-item .knob { fill: transparent; }
 .photo-content .icon-item span { color: rgba(255, 255, 255, .92); }
